@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="28px" viewBox="0 0 132 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>zigzag2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Relieved-homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="relieved-homepage-1440" transform="translate(-1286.000000, -3627.000000)" stroke="#F77062" stroke-width="2">
+            <g id="09-sub-cards-02" transform="translate(44.000000, 3466.000000)">
+                <g id="zigzag2" transform="translate(1243.000000, 162.000000)">
+                    <polyline id="Stroke-1" points="0 0 18.5156443 11.7154255 37.0330459 0 55.5486902 11.7154255 74.0672633 0 92.5864222 11.7154255"></polyline>
+                    <polyline id="Stroke-3" stroke-dasharray="12" points="38 15 56.5156443 26.7154255 75.0330459 15 93.5486902 26.7154255 112.067263 15 130.586422 26.7154255"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
