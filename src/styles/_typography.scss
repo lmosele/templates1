@@ -31,7 +31,10 @@ h1, h2, h3, h4, h5, li, a {
 }
 
 // PRESET TAGS
-a { text-decoration: none; }
+a { 
+  text-decoration: none; 
+  color: inherit;
+}
 a img { border: none; }
 img {
   max-width: 100%;
@@ -106,6 +109,17 @@ a {
       margin-right: 5px;
     }
   }
+}
+.reset-button {
+  background:none!important;
+  color:inherit;
+  border:none; 
+  padding:0!important;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: none;
+  outline-offset: 0;
+  outline: none;
 }
 
 @include mobile {

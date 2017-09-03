@@ -1,7 +1,8 @@
 // base
-// @import "vendor/normalize";
+@import "vendor/normalize";
 @import "vendor/grid";
-
 @import "modules";
-@import "header";
 @import "typography";
+@import "shared";
+@import "navbar";
+@import "footer";

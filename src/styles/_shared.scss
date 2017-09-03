@@ -1,0 +1,12 @@
+.brands-list {
+  li {
+    display: inline-flex;
+  }
+  .brand-logo {
+    margin-right: 40px;
+    max-width: 100px;
+    &:hover {
+      opacity: .9;
+    }
+  }
+}

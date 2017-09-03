@@ -3,24 +3,8 @@
 <?php echo file_get_contents("./src/modules/_head.php") ?>
 
 <body>
-      
-  <nav class="home-nav row between-xs">
-    <a href="#" class="home-nav-logo col-xs-2">Logo</a>
 
-    <ul class="home-nav-logo-list col-lg-6">
-			<li>
-				<a href="#" class="brand-logo dim">
-					<img src="#">
-				</a>
-			</li>
-		</ul>
-
-    <div class="home-nav-icons col-xs-2">
-      <a href="#" class="icon-link-facebook">FB</a>
-      <a href="#" class="icon-link-search">SEARCH</a>
-    </div>
-
-  </nav>
+  <?php echo file_get_contents("./src/modules/_navbar.php") ?>
 
   <!-- Splash Header -->
 	<header class="splash row">

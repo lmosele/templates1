@@ -49,6 +49,8 @@ $superlargescreen:  2100px;
 
 // ** Master Container Width **
 $masterwidth:      1440px;
+$global-padding:   60px;
+$containerwidth:   $masterwidth - ($global-padding*2);
 
 // ** Font Sizes **
 $fontsmall:        0.5em;
