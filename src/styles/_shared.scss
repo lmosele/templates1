@@ -47,12 +47,20 @@
     }
   }
   .post-image-slug {
+    display: flex;
+    align-items: center;
     background-color: white;
     position: absolute;
     text-align: center;
-    padding: 8px 0 1px;
+    z-index: $z7;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 3px;
     img {
       max-width: 80%;
+      margin-right: 5px;
+      margin-left: 5px;
     }
     &.bottom {
       bottom: -5px;
@@ -67,11 +75,22 @@
   align-items: center;
   margin-top: 5px;
   margin-bottom: 5px;
+  color: $grey;
   .author-slug-image {
     width: 32px;
     height: 32px;
     border-radius: 60px;
     margin-right: 5px;
+  }
+  &.slug-large {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .author-slug-image {
+      width: 56px;
+      height: 56px;
+      border-radius: 100px;
+      margin-right: 10px;
+    }
   }
 }
 
@@ -87,6 +106,34 @@
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 1px solid $lightgrey;
+  }
+}
+
+.post-large {
+  display: flex;
+  position: relative;
+  overflow: none;
+  align-items: center;  
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .post-title-medium {
+    margin-bottom: 20px;
+  }
+  .post-author-slug {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $lightgrey;
+  }
+  .post-details {
+    max-width: 350px;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -121,10 +168,11 @@
 
 .section {
   @extend %inner-padding;
-  overflow:auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: lightgrey;
   .section-title {
+    margin-bottom: 2rem;
     text-align: center;
   }
 }

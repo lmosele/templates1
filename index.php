@@ -21,8 +21,8 @@
 				</a>
 				<p class="post-description">From updating hardware and faucets to layering colors and textures, here are some ideas to kickstart a kitchen makeover that brings the entire home to life.</p>
 
-				<div class="post-author-slug-large">
-					<img src="#" class="author-slug-image">
+				<div class="post-author-slug slug-large">
+					<img src="./dist/img/photos/author1.png" class="author-slug-image">
 					<span class="author-slug-title">
 						<em>by</em> Julia Morrow
 					</span>
@@ -38,8 +38,8 @@
 
 	<!-- Recent Posts -->
 	<section class="section row">
-		<h2 class="section-title col-lg-12">Section Title</h2>
-		<div class="col-lg-3">
+		<h2 class="section-title col-xs-12">Section Title</h2>
+		<div class="col-xs-6 col-sm-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -66,7 +66,7 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-lg-3">
+		<div class="col-xs-6 col-sm-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -93,7 +93,7 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-lg-3">
+		<div class="col-xs-6 col-sm-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -120,7 +120,7 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-lg-3">
+		<div class="col-xs-6 col-sm-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -153,36 +153,36 @@
 
 	<!-- sponsored post section -->
 	<section class="section row">
+		<div class="col-sm-8 col-xs-12">
 
-		<article class="post-large col-lg-8">
-
-			<div class="post-image-container">
-				<span class="post-image-slug top">
-					<img src="#">
-				</span>
-				<a href="#{post link}" class="post-image" alt="{post title}">
-					<img src="#">
-				</a>
-			</div>
-			<div class="post-details">
-				<a href="#" class="post-title-medium">
-					<h3>Sponsored Post Title</h3>
-				</a>
-
-				<div class="post-author-slug-medium">
-					<img src="#" class="author-slug-image">
-					<span class="author-slug-title">
-						<em>by</em> John Nolan
+			<article class="post-large">
+				<div class="post-image-container">
+					<span class="post-image-slug top">
+						Sponsored by <img src="./dist/img/logo-homehacks.svg">
 					</span>
+					<a href="#{post link}" class="post-image" alt="{post title}">
+						<img src="./dist/img/photos/sponsored1.jpg">
+					</a>
 				</div>
+				<div class="post-details">
+					<a href="#" class="post-title-medium">
+						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
+					</a>
 
-				<span class="post-crumb-datetime">July 15th, 2017</span>
+					<div class="post-author-slug">
+						<img src="./dist/img/photos/author1.png" class="author-slug-image">
+						<span class="author-slug-title">
+							<em>by</em> John Nolan
+						</span>
+					</div>
 
-			</div>
+					<span class="post-crumb-datetime">July 15th, 2017</span>
 
-		</article>
+				</div>
+			</article>
 
-		<aside class="col-lg-4">
+		</div>
+		<aside class="col-sm-4 col-xs-12">
 			<figure class="subscribe-block">
 				<h4>Stay Updated w/SBLY</h4>
 				<h5>Get uplifting and insightful news daily.</h5>
@@ -215,62 +215,60 @@
 
 	<!-- large post section -->
 	<section class="section row">
-
-		<article class="post-large col-lg-6">
-
-			<div class="post-image-container">
-				<span class="post-image-slug top">
-					<img src="#">
-				</span>
-				<a href="#{post link}" class="post-image" alt="{post title}">
-					<img src="#">
-				</a>
-			</div>
-			<div class="post-details">
-				<a href="#" class="post-title-medium">
-					<h3>Large Post 1</h3>
-				</a>
-
-				<div class="post-author-slug-medium">
-					<img src="#" class="author-slug-image">
-					<span class="author-slug-title">
-						<em>by</em> John Nolan
+		<div class="col-xs-6">
+			<article class="post-large">
+				<div class="post-image-container">
+					<span class="post-image-slug top">
+						Sponsored by <img src="./dist/img/logo-homehacks.svg">
 					</span>
+					<a href="#{post link}" class="post-image" alt="{post title}">
+						<img src="./dist/img/photos/sponsored1.jpg">
+					</a>
 				</div>
+				<div class="post-details">
+					<a href="#" class="post-title-medium">
+						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
+					</a>
 
-				<span class="post-crumb-datetime">July 15th, 2017</span>
+					<div class="post-author-slug">
+						<img src="./dist/img/photos/author1.png" class="author-slug-image">
+						<span class="author-slug-title">
+							<em>by</em> John Nolan
+						</span>
+					</div>
 
-			</div>
+					<span class="post-crumb-datetime">July 15th, 2017</span>
 
-		</article>
-
-		<article class="post-large col-lg-6">
-
-			<div class="post-image-container">
-				<span class="post-image-slug top">
-					<img src="#">
-				</span>
-				<a href="#{post link}" class="post-image" alt="{post title}">
-					<img src="#">
-				</a>
-			</div>
-			<div class="post-details">
-				<a href="#" class="post-title-medium">
-					<h3>Large Post 1</h3>
-				</a>
-
-				<div class="post-author-slug-medium">
-					<img src="#" class="author-slug-image">
-					<span class="author-slug-title">
-						<em>by</em> John Nolan
+				</div>
+			</article>
+		</div>
+		<div class="col-xs-6">
+			<article class="post-large">
+				<div class="post-image-container">
+					<span class="post-image-slug top">
+						Sponsored by <img src="./dist/img/logo-homehacks.svg">
 					</span>
+					<a href="#{post link}" class="post-image" alt="{post title}">
+						<img src="./dist/img/photos/sponsored1.jpg">
+					</a>
 				</div>
+				<div class="post-details">
+					<a href="#" class="post-title-medium">
+						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
+					</a>
 
-				<span class="post-crumb-datetime">July 15th, 2017</span>
+					<div class="post-author-slug">
+						<img src="./dist/img/photos/author1.png" class="author-slug-image">
+						<span class="author-slug-title">
+							<em>by</em> John Nolan
+						</span>
+					</div>
 
-			</div>
+					<span class="post-crumb-datetime">July 15th, 2017</span>
 
-		</article>
+				</div>
+			</article>
+		</div>
 	</section>
 
 
