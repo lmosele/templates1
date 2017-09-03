@@ -7,15 +7,19 @@
   <?php echo file_get_contents("./src/modules/_navbar.php") ?>
 
   <!-- Splash Header -->
-	<header class="splash row">
+	<header class="splash row around-xs">
 		<article class="splash-container row">
-			<div class="splash-details col-lg-6">
-				<span class="post-crumb-category">Health</span>
+			<div class="splash-details col-lg-5 first-lg">
+				<div class="post-crumb-category">
+					<a href="#" class="post-crumb-link">
+						<img src="./dist/img/logo-homehacks.svg">
+					</a>
+				</div>
 				<span class="post-crumb-datetime">July 15th, 2017</span>
 				<a href="#" class="post-title-large">
 					<h1>8 Ways to Refresh and Personalize Your Home</h1>
 				</a>
-				<p class="post-description">8 Ways to Refresh and Personalize Your Home</p>
+				<p class="post-description">From updating hardware and faucets to layering colors and textures, here are some ideas to kickstart a kitchen makeover that brings the entire home to life.</p>
 
 				<div class="post-author-slug-large">
 					<img src="#" class="author-slug-image">
@@ -24,9 +28,9 @@
 					</span>
 				</div>
 			</div>
-			<div class="splash-image-container col-lg-6">
-				<a href="#" alt="{post title}">
-					<img src="#">
+			<div class="splash-image-container col-lg-7 first-xs">
+				<a href="#" class="splash-image" alt="{post title}">
+					<img src="./dist/img/photos/splash1.jpg">
 				</a>
 			</div>
 		</article>

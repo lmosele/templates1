@@ -4,8 +4,8 @@
 // main fonts
 $nav: 'Oswald', Helvetica, Verdana, Arial, sans-serif;
 $headline: 'Poppins', Helvetica, Verdana, Arial, sans-serif;
-$body: 'PT+Serif', 'Times New Roman', serif; 
-$accent: 'Playfair+Display', Helvetica, Verdana, Arial, sans-serif; 
+$body: 'PT Serif', 'Times New Roman', serif; 
+$accent: 'Playfair Display', 'Times New Roman', serif; 
 
 
 $navLink: '';
@@ -49,8 +49,9 @@ $superlargescreen:  2100px;
 
 // ** Master Container Width **
 $masterwidth:      1440px;
-$globalpadding:   60px;
+$globalpadding:    60px;
 $containerwidth:   $masterwidth - ($globalpadding*2);
+$nav-height:       100px;
 
 // ** Font Sizes **
 $fontsmall:        0.5em;

@@ -16,18 +16,22 @@ html[xmlns] .clearfix {
 html, html a {
   -webkit-font-smoothing: antialiased !important;
 }
-// html, body {
-//   height: 100%;
-// }
+html, body {
+  height: 100%;
+}
+html {
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   padding: 0;
   font-size: $fontbase;
   position: relative;
-  font-family: $body !important;
 }
 h1, h2, h3, h4, h5, li, a {
+  font-weight: 400;
   font-family: $headline;
+  letter-spacing: -0.83px;
 }
 
 // PRESET TAGS
@@ -61,7 +65,7 @@ b {
 h1,h2 {
   margin: 0;
   text-transform: capitalize;
-  line-height: $linelarge
+  line-height: 44px;
 }
 h3,h4,h5 {
   // font-weight: 600;
@@ -69,7 +73,8 @@ h3,h4,h5 {
 }
 p,ul,ol,li,a,span {
   line-height: $linebase;
-  // font-weight: 400;
+  font-weight: 400;
+  font-family: $body;
 }
 h1 {
   font-size: $fonthuge;

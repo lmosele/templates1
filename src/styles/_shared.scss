@@ -1,3 +1,64 @@
+%inner-padding {
+  padding-left: $globalpadding;
+  padding-right: $globalpadding;
+  @include mobile {
+      padding-left: $globalpadding - 40px;
+      padding-right: $globalpadding - 40px;
+  }
+}
+
+
+// BASE POST STYLING
+[class*="post-title-"] {
+  &:hover {
+    color: $orange;
+    cursor: pointer;    
+  }
+}
+.post-title-large {
+  h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    &:hover {
+      color: $orange;
+    }
+  }
+}
+.post-crumb-datetime {
+  font-family: $headline;
+  font-size: $fontmobile;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.splash {
+  @extend %inner-padding;
+  padding-top: ($nav-height*2);
+  padding-bottom: $nav-height;
+  overflow:auto;
+  background-color: $blueBG;
+  .splash-container {
+    background-color: white;
+    width: 100%;
+  }
+  .splash-details {
+    padding: 40px;
+  }
+  .splash-image-container {
+    background-color: gray;
+    padding: 0;
+    .splash-image {
+      object-fit: contain;
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+}
+
+
+// logo list for nav and footer
 .brands-list {
   li {
     display: inline-flex;
@@ -11,7 +72,8 @@
   }
 }
 
-%inner-padding {
-  padding-left: $globalpadding;
-  padding-right: $globalpadding;
-}
+
+
+
+
+
