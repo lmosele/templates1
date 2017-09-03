@@ -39,31 +39,115 @@
 	<!-- Recent Posts -->
 	<section class="section row">
 		<h2 class="section-title col-lg-12">Section Title</h2>
-		<article class="post-medium col-lg-3">
-			<div class="post-image-container">
-				<a href="#{post link}" class="post-image" alt="{post title}">
-					<img src="./dist/img/photos/tile1.jpg">
-				</a>
-				<span class="post-image-slug bottom">
-					<img src="./dist/img/logo-homehacks.svg">
-				</span>
-			</div>
-			<div class="post-details">
-				<a href="#" class="post-title-medium">
-					<h3>8 Ways to Refresh and Personalize Your Home</h3>
-				</a>
-
-				<div class="post-author-slug-medium">
-					<img src="#" class="author-slug-image">
-					<span class="author-slug-title">
-						<em>by</em> John Nolan
-					</span>
+		<div class="col-lg-3">
+			<article class="post-medium">
+				<div class="post-image-container">
+					<a href="#{post link}" class="post-image" alt="{post title}">
+						<img src="./dist/img/photos/tile1.jpg">
+					</a>
+					<div class="post-image-slug bottom">
+						<img src="./dist/img/logo-homehacks.svg">
+					</div>
 				</div>
+				<div class="post-details">
+					<a href="#" class="post-title-medium">
+						<h3>8 Ways to Refresh and Personalize Your Home</h3>
+					</a>
 
-				<span class="post-crumb-datetime">July 15th, 2017</span>
+					<div class="post-author-slug">
+						<img src="./dist/img/photos/author1.png" class="author-slug-image">
+						<span class="author-slug-title">
+							<em>by</em> John Nolan
+						</span>
+					</div>
 
-			</div>
-		</article>
+					<span class="post-crumb-datetime">July 15th, 2017</span>
+
+				</div>
+			</article>
+		</div>
+		<div class="col-lg-3">
+			<article class="post-medium">
+				<div class="post-image-container">
+					<a href="#{post link}" class="post-image" alt="{post title}">
+						<img src="./dist/img/photos/tile1.jpg">
+					</a>
+					<div class="post-image-slug bottom">
+						<img src="./dist/img/logo-homehacks.svg">
+					</div>
+				</div>
+				<div class="post-details">
+					<a href="#" class="post-title-medium">
+						<h3>8 Ways to Refresh and Personalize Your Home</h3>
+					</a>
+
+					<div class="post-author-slug">
+						<img src="./dist/img/photos/author1.png" class="author-slug-image">
+						<span class="author-slug-title">
+							<em>by</em> John Nolan
+						</span>
+					</div>
+
+					<span class="post-crumb-datetime">July 15th, 2017</span>
+
+				</div>
+			</article>
+		</div>
+		<div class="col-lg-3">
+			<article class="post-medium">
+				<div class="post-image-container">
+					<a href="#{post link}" class="post-image" alt="{post title}">
+						<img src="./dist/img/photos/tile1.jpg">
+					</a>
+					<div class="post-image-slug bottom">
+						<img src="./dist/img/logo-homehacks.svg">
+					</div>
+				</div>
+				<div class="post-details">
+					<a href="#" class="post-title-medium">
+						<h3>8 Ways to Refresh and Personalize Your Home</h3>
+					</a>
+
+					<div class="post-author-slug">
+						<img src="./dist/img/photos/author1.png" class="author-slug-image">
+						<span class="author-slug-title">
+							<em>by</em> John Nolan
+						</span>
+					</div>
+
+					<span class="post-crumb-datetime">July 15th, 2017</span>
+
+				</div>
+			</article>
+		</div>
+		<div class="col-lg-3">
+			<article class="post-medium">
+				<div class="post-image-container">
+					<a href="#{post link}" class="post-image" alt="{post title}">
+						<img src="./dist/img/photos/tile1.jpg">
+					</a>
+					<div class="post-image-slug bottom">
+						<img src="./dist/img/logo-homehacks.svg">
+					</div>
+				</div>
+				<div class="post-details">
+					<a href="#" class="post-title-medium">
+						<h3>8 Ways to Refresh and Personalize Your Home</h3>
+					</a>
+
+					<div class="post-author-slug">
+						<img src="./dist/img/photos/author1.png" class="author-slug-image">
+						<span class="author-slug-title">
+							<em>by</em> John Nolan
+						</span>
+					</div>
+
+					<span class="post-crumb-datetime">July 15th, 2017</span>
+
+				</div>
+			</article>
+		</div>
+
 	</section>
 
 

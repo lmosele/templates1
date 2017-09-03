@@ -36,8 +36,12 @@
   padding: 0;
   display: flex;
   position: relative;
+  overflow: none;
   .post-image {
     object-fit: contain;
+    img {
+      margin-bottom: -10px;
+    }
     &:hover {
       opacity: .8;
     }
@@ -45,14 +49,33 @@
   .post-image-slug {
     background-color: white;
     position: absolute;
+    text-align: center;
+    padding: 8px 0 1px;
+    img {
+      max-width: 80%;
+    }
     &.bottom {
-      bottom: 0;
+      bottom: -5px;
     }
     &.top {
       top: 0;
     }
   }
 }
+.post-author-slug {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  .author-slug-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 60px;
+    margin-right: 5px;
+  }
+}
+
+
 .post-medium {
   padding: 0;
   background-color: white;
@@ -60,8 +83,12 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .post-author-slug {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $lightgrey;
+  }
 }
-
 
 .splash {
   @extend %inner-padding;
@@ -79,8 +106,12 @@
   .splash-image-container {
     background-color: gray;
     padding: 0;
+    overflow: none;
     .splash-image {
       object-fit: contain;
+      img {
+        margin-bottom: -10px;
+      }
       &:hover {
         opacity: .8;
       }
@@ -93,7 +124,6 @@
   overflow:auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: gray;
   .section-title {
     text-align: center;
   }
