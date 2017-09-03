@@ -3,9 +3,8 @@
   position: fixed;
   width: 100%;
   .home-nav-container {
+    @extend %inner-padding;
     height: 100px;
-    padding-right: $global-padding;
-    padding-left: $global-padding;
   }
   .brands-list {
     text-align: center;

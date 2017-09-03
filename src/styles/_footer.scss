@@ -1,6 +1,7 @@
 footer {
+	@extend %inner-padding;
 	height: 230px;
-	background-color: gray;
+	background-color: lighten($blue, 10%);
 	color: white;
 	.footer-brands {
 		height: 60px;
