@@ -1,9 +1,11 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Serif|Playfair+Display|Poppins');
 
 // main fonts
-$body: 'Montserrat', Helvetica, Verdana, Arial, sans-serif;
-$header: 'Montserrat', Helvetica, Verdana, Arial, sans-serif; 
+$nav: 'Oswald', Helvetica, Verdana, Arial, sans-serif;
+$headline: 'Poppins', Helvetica, Verdana, Arial, sans-serif;
+$body: 'PT+Serif', 'Times New Roman', serif; 
+$accent: 'Playfair+Display', Helvetica, Verdana, Arial, sans-serif; 
 
 
 $navLink: '';
@@ -16,12 +18,19 @@ $splashTitle: '';
 $contentTitle: '';
 $contentTitleSmall: '';
 
-$pinkAccent: '';
-$orangeAccent: '';
-$blueAccent: #174A8F;
-$tanBackground: ''; 
-$fontGray: '';
-$fontBlack: '';
+
+$pink: #EF98C3;
+$orange: #F77062;
+
+$blue: #174A8F;
+$blueBG: #F2F9FF;
+$homeHacksBlue: #21D8FB;
+$tealBlue: #3BEFF3;
+$tealGreen: #4CDEBB;
+
+$tan: ''; 
+$fontGray: #909090;
+$fontBlack: #2E2E2E;
 
 $blueoverlay: 	   rgba(104, 167, 185, 0.4);
 $whiteoverlay:     rgba(255,255,255,0.5);
@@ -29,9 +38,6 @@ $blackoverlay:     rgba(0,0,0,0.5);
 
 
 // ** Breakpoints **
-
-
-
 $tinyscreen:        480px;
 $mobilescreen:      640px;
 $mediumscreen:      960px;
