@@ -31,6 +31,37 @@
   margin-bottom: 10px;
 }
 
+.post-image-container {
+  background-color: gray;
+  padding: 0;
+  display: flex;
+  position: relative;
+  .post-image {
+    object-fit: contain;
+    &:hover {
+      opacity: .8;
+    }
+  }
+  .post-image-slug {
+    background-color: white;
+    position: absolute;
+    &.bottom {
+      bottom: 0;
+    }
+    &.top {
+      top: 0;
+    }
+  }
+}
+.post-medium {
+  padding: 0;
+  background-color: white;
+  .post-details {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 
 .splash {
   @extend %inner-padding;
@@ -54,6 +85,17 @@
         opacity: .8;
       }
     }
+  }
+}
+
+.section {
+  @extend %inner-padding;
+  overflow:auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: gray;
+  .section-title {
+    text-align: center;
   }
 }
 

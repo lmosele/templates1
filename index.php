@@ -42,10 +42,10 @@
 		<article class="post-medium col-lg-3">
 			<div class="post-image-container">
 				<a href="#{post link}" class="post-image" alt="{post title}">
-					<img src="#" class="author-slug-image">
+					<img src="./dist/img/photos/tile1.jpg">
 				</a>
 				<span class="post-image-slug bottom">
-					<img src="#">
+					<img src="./dist/img/logo-homehacks.svg">
 				</span>
 			</div>
 			<div class="post-details">
