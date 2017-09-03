@@ -29,10 +29,10 @@
       </ul>
 
       <div class="home-nav-icons col-xs-2 end-xs">
-        <a href="#" class="icon-link-facebook">
+        <a href="#" class="home-nav-fb-logo">
           <img src="./dist/img/fb-icon.svg" alt="{site name}">
         </a>
-        <button class="reset-button icon-link-search">
+        <button class="reset-button home-nav-search">
           <img src="./dist/img/search-icon.svg" alt="{site name}">
         </button>
       </div>

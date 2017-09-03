@@ -1,9 +1,9 @@
 <footer>
-	<div class="footer-brands row">
+	<div class="footer-brands row middle-xs">
 		<a href="#" class="footer-main-logo col-lg-2">
       <img src="./dist/img/logo-sbly.svg" alt="{site name}">
 		</a>
-		<ul class="brands-list col-lg-6">
+		<ul class="brands-list col-lg-5">
         <li>
           <a href="#" class="brand-logo">
             <img src="./dist/img/logo-relieved.svg">
@@ -29,24 +29,24 @@
 
 	<div class="footer-legal-links row">
 		<ul class="links-list col-lg-6">
-			<li>
-				<a href="#" class="legal-link">About</a>
+			<li class="legal-link">
+				<a href="#">About</a>
 			</li>
-			<li>
-				<a href="#" class="legal-link">Privacy Policy</a>
+			<li class="legal-link">
+				<a href="#">Privacy Policy</a>
 			</li>
-			<li>
-				<a href="#" class="legal-link">Terms Of Use</a>
+			<li class="legal-link">
+				<a href="#">Terms Of Use</a>
 			</li>
-			<li>
-				<a href="#" class="legal-link">DMCA</a>
+			<li class="legal-link">
+				<a href="#">DMCA</a>
 			</li>
-			<li>
-				<a href="#" class="legal-link">Contact</a>
+			<li class="legal-link">
+				<a href="#">Contact</a>
 			</li>
 		</ul>
-		<a href="#" class="footer-fb-logo col-xs-offset-4 col-lg-2">
-			<img src="#">
+		<a href="#" class="footer-fb-logo end-xs col-lg-6">
+      <img src="./dist/img/fb-icon.svg" alt="{site name}">
 		</a>
 	</div>
 	
