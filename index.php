@@ -413,35 +413,124 @@
 				</ol>
 			</div>
 
+			<button class="reset-button ghost-button-orange trending-button">Show More</button>
+
 		</div>
 		
 	</section>
 
 
+
+
 	<!-- Inspiring Posts -->
 	<section class="section row">
-		<h2 class="section-title col-lg-12">Inspiring Posts</h2>
-		<div class="col-lg-9">
-			<div class="posts">
-				<article class="post-small col-lg-4">
+		<h2 class="section-title orange-title col-lg-12">Inspiring Posts</h2>
+		<div class="col-lg-9 row">
+			<div class="col-xs-3">
+				<article class="post-medium">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
-							<img src="#" class="author-slug-image">
+							<img src="./dist/img/photos/tile1.jpg">
 						</a>
+						<div class="post-image-slug bottom">
+							<img src="./dist/img/logo-homehacks.svg">
+						</div>
 					</div>
 					<div class="post-details">
 						<a href="#" class="post-title-medium">
 							<h3>8 Ways to Refresh and Personalize Your Home</h3>
 						</a>
 
-						<div class="post-author-slug-medium">
-							<img src="#" class="author-slug-image">
+						<div class="post-author-slug">
+							<img src="./dist/img/photos/author1.png" class="author-slug-image">
 							<span class="author-slug-title">
 								<em>by</em> John Nolan
 							</span>
 						</div>
 
 						<span class="post-crumb-datetime">July 15th, 2017</span>
+
+					</div>
+				</article>
+			</div>
+			<div class="col-xs-3">
+				<article class="post-medium">
+					<div class="post-image-container">
+						<a href="#{post link}" class="post-image" alt="{post title}">
+							<img src="./dist/img/photos/tile1.jpg">
+						</a>
+						<div class="post-image-slug bottom">
+							<img src="./dist/img/logo-homehacks.svg">
+						</div>
+					</div>
+					<div class="post-details">
+						<a href="#" class="post-title-medium">
+							<h3>8 Ways to Refresh and Personalize Your Home</h3>
+						</a>
+
+						<div class="post-author-slug">
+							<img src="./dist/img/photos/author1.png" class="author-slug-image">
+							<span class="author-slug-title">
+								<em>by</em> John Nolan
+							</span>
+						</div>
+
+						<span class="post-crumb-datetime">July 15th, 2017</span>
+
+					</div>
+				</article>
+			</div>
+			<div class="col-xs-3">
+				<article class="post-medium">
+					<div class="post-image-container">
+						<a href="#{post link}" class="post-image" alt="{post title}">
+							<img src="./dist/img/photos/tile1.jpg">
+						</a>
+						<div class="post-image-slug bottom">
+							<img src="./dist/img/logo-homehacks.svg">
+						</div>
+					</div>
+					<div class="post-details">
+						<a href="#" class="post-title-medium">
+							<h3>8 Ways to Refresh and Personalize Your Home</h3>
+						</a>
+
+						<div class="post-author-slug">
+							<img src="./dist/img/photos/author1.png" class="author-slug-image">
+							<span class="author-slug-title">
+								<em>by</em> John Nolan
+							</span>
+						</div>
+
+						<span class="post-crumb-datetime">July 15th, 2017</span>
+
+					</div>
+				</article>
+			</div>
+			<div class="col-xs-3">
+				<article class="post-medium">
+					<div class="post-image-container">
+						<a href="#{post link}" class="post-image" alt="{post title}">
+							<img src="./dist/img/photos/tile1.jpg">
+						</a>
+						<div class="post-image-slug bottom">
+							<img src="./dist/img/logo-homehacks.svg">
+						</div>
+					</div>
+					<div class="post-details">
+						<a href="#" class="post-title-medium">
+							<h3>8 Ways to Refresh and Personalize Your Home</h3>
+						</a>
+
+						<div class="post-author-slug">
+							<img src="./dist/img/photos/author1.png" class="author-slug-image">
+							<span class="author-slug-title">
+								<em>by</em> John Nolan
+							</span>
+						</div>
+
+						<span class="post-crumb-datetime">July 15th, 2017</span>
+
 					</div>
 				</article>
 			</div>

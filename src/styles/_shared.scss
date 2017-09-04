@@ -15,11 +15,16 @@
   .section-title {
     margin-bottom: 2rem;
     text-align: center;
+    &.orange-title {
+      color: $orange;
+    }
   }
   .pattern-background {
     @extend %inner-padding;
     background-color: $gray;
     background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   &.fullwidth {
     padding: 0;
@@ -122,6 +127,9 @@
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid $lightgrey;
+}
+.trending-button {
+  margin: 0 auto;
 }
 .trending-posts-list {
   padding-top: 2rem;
@@ -286,6 +294,17 @@
     &:hover {
       background-color: lighten($blue, 10%);
     }
+  }
+}
+
+.ghost-button-orange {
+  padding: 10px 20px;
+  border: 1px solid $orange;
+  color: $orange;
+  background-color: white;
+  &:hover {
+    background-color: $orange;
+    color: white;
   }
 }
 
