@@ -274,46 +274,145 @@
 
 
 	<!-- top trending -->
-	<section class="section top-trending row">
+	<section class="section top-trending fullwidth">
+		<h2 class="section-title">Section Title</h2>
+		<div class="pattern-background row" 
+				 style="background-image: url('./dist/img/trending-bg.jpg')">
+			<div class="col-xs-12 col-md-6">
+				<h3 class="trending-title">Trending Title</h3>
+				<ol class="trending-posts-list">
 
-		<div class="col-lg-6">
-			<ul class="trending-posts">
-				<li class="post-trending">
-					<div class="row">
-						<div class="post-image-container col-lg-4">
-							<a href="#{post link}" class="post-image" alt="{post title}">
-								<img src="#">
-							</a>
+					<li class="post-trending">
+						<div class="row">
+							<div class="post-image-container col-xs-4">
+								<a href="#{post link}" class="post-image" alt="{post title}">
+									<img src="./dist/img/photos/trending1.jpg">
+								</a>
+							</div>
+							<div class="post-details col-xs-8">
+								<a href="#" class="post-title-medium">
+									<h3>Treat bronchitis with these home remedies</h3>
+								</a>
+								<div class="post-author-slug">
+									<img src="./dist/img/photos/author1.png" class="author-slug-image">
+									<span class="author-slug-title">
+										<em>by</em> John Nolan
+									</span>
+								</div>
+							</div>
 						</div>
-						<div class="post-details col-lg-8">
-							<a href="#" class="post-title-medium">
-								<h3>Sponsored Post Title</h3>
-							</a>
-							<span class="post-crumb-datetime">July 5th 2017</span>
+					</li>
+					<li class="post-trending">
+						<div class="row">
+							<div class="post-image-container col-xs-4">
+								<a href="#{post link}" class="post-image" alt="{post title}">
+									<img src="./dist/img/photos/trending1.jpg">
+								</a>
+							</div>
+							<div class="post-details col-xs-8">
+								<a href="#" class="post-title-medium">
+									<h3>Treat bronchitis with these home remedies</h3>
+								</a>
+								<div class="post-author-slug">
+									<img src="./dist/img/photos/author1.png" class="author-slug-image">
+									<span class="author-slug-title">
+										<em>by</em> John Nolan
+									</span>
+								</div>
+							</div>
 						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
+					</li>
+					<li class="post-trending">
+						<div class="row">
+							<div class="post-image-container col-xs-4">
+								<a href="#{post link}" class="post-image" alt="{post title}">
+									<img src="./dist/img/photos/trending1.jpg">
+								</a>
+							</div>
+							<div class="post-details col-xs-8">
+								<a href="#" class="post-title-medium">
+									<h3>Treat bronchitis with these home remedies</h3>
+								</a>
+								<div class="post-author-slug">
+									<img src="./dist/img/photos/author1.png" class="author-slug-image">
+									<span class="author-slug-title">
+										<em>by</em> John Nolan
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
 
-		<div class="col-lg-6">
-			<ul class="trending-posts">
-				<li class="post-trending">
-					<div class="row">
-						<div class="post-image-container col-lg-4">
-							<a href="#{post link}" class="post-image" alt="{post title}">
-								<img src="#">
-							</a>
+				</ol>
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<h3 class="trending-title">Trending Title</h3>
+				<ol class="trending-posts-list">
+
+					<li class="post-trending">
+						<div class="row">
+							<div class="post-image-container col-xs-4">
+								<a href="#{post link}" class="post-image" alt="{post title}">
+									<img src="./dist/img/photos/trending1.jpg">
+								</a>
+							</div>
+							<div class="post-details col-xs-8">
+								<a href="#" class="post-title-medium">
+									<h3>Treat bronchitis with these home remedies</h3>
+								</a>
+								<div class="post-author-slug">
+									<img src="./dist/img/photos/author1.png" class="author-slug-image">
+									<span class="author-slug-title">
+										<em>by</em> John Nolan
+									</span>
+								</div>
+							</div>
 						</div>
-						<div class="post-details col-lg-8">
-							<a href="#" class="post-title-medium">
-								<h3>Sponsored Post Title</h3>
-							</a>
-							<span class="post-crumb-datetime">July 5th 2017</span>
+					</li>
+					<li class="post-trending">
+						<div class="row">
+							<div class="post-image-container col-xs-4">
+								<a href="#{post link}" class="post-image" alt="{post title}">
+									<img src="./dist/img/photos/trending1.jpg">
+								</a>
+							</div>
+							<div class="post-details col-xs-8">
+								<a href="#" class="post-title-medium">
+									<h3>Treat bronchitis with these home remedies</h3>
+								</a>
+								<div class="post-author-slug">
+									<img src="./dist/img/photos/author1.png" class="author-slug-image">
+									<span class="author-slug-title">
+										<em>by</em> John Nolan
+									</span>
+								</div>
+							</div>
 						</div>
-					</div>
-				</li>
-			</ul>
+					</li>
+					<li class="post-trending">
+						<div class="row">
+							<div class="post-image-container col-xs-4">
+								<a href="#{post link}" class="post-image" alt="{post title}">
+									<img src="./dist/img/photos/trending1.jpg">
+								</a>
+							</div>
+							<div class="post-details col-xs-8">
+								<a href="#" class="post-title-medium">
+									<h3>Treat bronchitis with these home remedies</h3>
+								</a>
+								<div class="post-author-slug">
+									<img src="./dist/img/photos/author1.png" class="author-slug-image">
+									<span class="author-slug-title">
+										<em>by</em> John Nolan
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+
+				</ol>
+			</div>
+
 		</div>
 		
 	</section>

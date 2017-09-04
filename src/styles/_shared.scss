@@ -16,6 +16,14 @@
     margin-bottom: 2rem;
     text-align: center;
   }
+  .pattern-background {
+    @extend %inner-padding;
+    background-color: $gray;
+    background-size: cover;
+  }
+  &.fullwidth {
+    padding: 0;
+  }
 }
 
 // BASE POST STYLING
@@ -42,11 +50,10 @@
 }
 
 .post-image-container {
-  background-color: gray;
   padding: 0;
   display: flex;
   position: relative;
-  overflow: none;
+  overflow: hidden;
   .post-image {
     object-fit: contain;
     img {
@@ -107,8 +114,32 @@
     }
   }
 }
+.trending-title {
+  font-family: $body;
+  font-style: italic;
+  color: $orange;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid $lightgrey;
+}
+.trending-posts-list {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  li {
+    counter-increment: step-counter;
+    &::before {
+      content: counter(step-counter); // PURE SORCERY
+      font-family: $accent;
+      font-size: $fontxlarger;
+      color: $orange;
+      width: 10px;
+    }
+  }
+}
 
 
+// POST STYLING
 .post-listing {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -130,6 +161,19 @@
   }
 }
 
+.post-trending {
+  display: inline-flex;
+  margin-bottom: 30px;
+  > .row {
+    margin-left: 20px;
+  }
+  .post-author-slug {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid $lightgrey;
+  }
+}
+
 .post-medium {
   padding: 0;
   background-color: white;
@@ -147,7 +191,6 @@
 .post-large {
   display: flex;
   position: relative;
-  overflow: none;
   align-items: center;  
   justify-content: center;
   margin-bottom: 50px;
@@ -189,7 +232,7 @@
   .splash-image-container {
     background-color: gray;
     padding: 0;
-    overflow: none;
+    overflow: hidden;
     .splash-image {
       object-fit: contain;
       img {
