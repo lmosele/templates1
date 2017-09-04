@@ -18,11 +18,17 @@
   &.fullwidth {
     padding: 0;
   }
+  @include tablet {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 // Post Styling
 [class*="post-title"] {
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
     color: $orange;
     cursor: pointer;    
   }
@@ -50,6 +56,7 @@
       @include accent-style($pink);
       font-size: $fontlarge;
       &:hover {
+        cursor: pointer;
         font-style: initial;
       }
     }
@@ -241,6 +248,39 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  .post-crumb-category {
+    padding-bottom: 10px;
+    .post-crumb-link.width-text {
+      font-size: $fontbase;
+    }
+  }
+  @include tablet {
+    .post-details {
+      bottom: initial;
+      right: 0;
+    }
+  }
+  @include mobile {
+    padding-left: 0;
+    padding-right: 0;
+    flex-flow: wrap;
+    .post-details {
+      max-width: 100%;
+      position: relative;
+    }
+  }
+  // if large posts share a row, wrap them early
+  &.split-column {
+    @include tablet {
+      padding-left: 0;
+      padding-right: 0;
+      flex-flow: wrap;
+      .post-details {
+        max-width: 100%;
+        position: relative;
+      }
+    }
+  }
 }
 
 .splash {
@@ -275,6 +315,11 @@
   }
   &.relieved-homepage {
     background-color: $tanBG;
+  }
+  @include mobile {
+    .post-description {
+      display: none;
+    }
   }
 }
 

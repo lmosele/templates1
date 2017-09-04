@@ -9,7 +9,7 @@
   <!-- Splash Header -->
 	<header class="splash sbly-homepage row around-xs">
 		<article class="splash-container row">
-			<div class="splash-details col-xs-5 first-lg">
+			<div class="splash-details col-xs-12 col-md-5 first-md">
 				<div class="post-crumb-category">
 					<a href="#" class="post-crumb-link">
 						<img src="./dist/img/logo-homehacks.svg">
@@ -28,7 +28,7 @@
 					</span>
 				</div>
 			</div>
-			<div class="splash-image-container col-xs-7 first-xs">
+			<div class="splash-image-container col-xs-12 col-md-7 first-xs">
 				<a href="#" class="splash-image" alt="{post title}">
 					<img src="./dist/img/photos/splash1.jpg">
 				</a>

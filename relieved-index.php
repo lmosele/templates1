@@ -9,7 +9,7 @@
   <!-- Splash Header -->
 	<header class="splash relieved-homepage row around-xs">
 		<article class="splash-container row">
-			<div class="splash-details col-xs-5 first-lg">
+			<div class="splash-details col-xs-12 col-md-5 first-md">
 				<div class="post-crumb-category with-text">
 					<a href="#" class="post-crumb-link">
 						Healthy Choices
@@ -28,7 +28,7 @@
 					</span>
 				</div>
 			</div>
-			<div class="splash-image-container col-xs-7 first-xs">
+			<div class="splash-image-container col-xs-12 col-md-7 first-xs">
 				<a href="#" class="splash-image" alt="{post title}">
 					<img src="./dist/img/photos/splash1.jpg">
 				</a>
@@ -38,7 +38,7 @@
 
 	<!-- Recent Posts -->
 	<section class="section row">
-		<h2 class="section-title text-orange col-xs-12">Section Title</h2>
+		<h2 class="section-title text-orange col-xs-12">Recent Stories</h2>
 		<div class="col-xs-6 col-sm-3">
 			<article class="post-medium">
 				<div class="post-image-container">
@@ -147,14 +147,12 @@
 				</div>
 			</article>
 		</div>
-
-
 	</section>
 
 
 	<!-- sponsored post section -->
 	<section class="section row">
-		<div class="col-sm-8 col-xs-12">
+		<div class="col-md-8 col-xs-12">
 
 			<article class="post-large">
 				<div class="post-image-container">
@@ -166,6 +164,9 @@
 					</a>
 				</div>
 				<div class="post-details">
+					<div class="post-crumb-category with-text">
+						<a href="#" class="post-crumb-link">Beauty Tips</a>
+					</div>
 					<a href="#" class="post-title">
 						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
 					</a>
@@ -183,42 +184,44 @@
 			</article>
 
 		</div>
-		<aside class="col-sm-4 col-xs-12">
-			<div class="subscribe-block">
-				<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>
-				<h5 class="subscribe-block-subtitle">Get uplifting and insightful news daily.</h5>
-				<div class="subscribe-block-input input-group">
-					<input class="input-group-field" type="text" placeholder="enter your email address" name="subscribeBlockEmail">
-					<button class="input-group-submit">Subscribe</button>
+		<aside class="col-md-4 col-xs-12 row">
+			<div class="col-md-12 col-sm-6 col-xs-12">
+				<div class="subscribe-block">
+					<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>
+					<h5 class="subscribe-block-subtitle">Get uplifting and insightful news daily.</h5>
+					<div class="subscribe-block-input input-group">
+						<input class="input-group-field" type="text" placeholder="enter your email address" name="subscribeBlockEmail">
+						<button class="input-group-submit">Subscribe</button>
+					</div>
 				</div>
 			</div>
-
-			<ul class="recommended-posts">
-				<li class="post-listing">
-					<div class="row">
-						<div class="post-image-container col-xs-2">
-							<a href="#{post link}" class="post-image" alt="{post title}">
-								<img src="./dist/img/photos/listing1.png">
-							</a>
+			<div class="col-md-12 col-sm-6 col-xs-12">
+				<ul class="recommended-posts">
+					<li class="post-listing">
+						<div class="row">
+							<div class="post-image-container col-xs-2">
+								<a href="#{post link}" class="post-image" alt="{post title}">
+									<img src="./dist/img/photos/listing1.png">
+								</a>
+							</div>
+							<div class="post-details col-xs-10">
+								<a href="#{post link}" class="post-title">
+									<h3>Sponsored Post Title</h3>
+								</a>
+								<span class="post-crumb-datetime">July 5th 2017</span>
+							</div>
 						</div>
-						<div class="post-details col-xs-10">
-							<a href="#{post link}" class="post-title">
-								<h3>Sponsored Post Title</h3>
-							</a>
-							<span class="post-crumb-datetime">July 5th 2017</span>
-						</div>
-					</div>
-				</li>
-
-			</ul>
+					</li>
+				</ul>
+			</div>
 		</aside>
 	</section>
 
 
 	<!-- large post section -->
 	<section class="section row">
-		<div class="col-xs-6">
-			<article class="post-large">
+		<div class="col-md-6 col-xs-12">
+			<article class="post-large split-column">
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks.svg">
@@ -244,8 +247,8 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-xs-6">
-			<article class="post-large">
+		<div class="col-md-6 col-xs-12">
+			<article class="post-large split-column">
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks.svg">
