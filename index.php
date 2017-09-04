@@ -183,14 +183,14 @@
 
 		</div>
 		<aside class="col-sm-4 col-xs-12">
-			<figure class="subscribe-block">
-				<h4>Stay Updated w/SBLY</h4>
-				<h5>Get uplifting and insightful news daily.</h5>
-				<div class="subscribe-block-search">
-					<input class="search-input" type="text" name="subscribeBlockEmail">
-					<button class="search-button-submit"></button>
+			<div class="subscribe-block">
+				<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>
+				<h5 class="subscribe-block-subtitle">Get uplifting and insightful news daily.</h5>
+				<div class="subscribe-block-input input-group">
+					<input class="input-group-field" type="text" name="subscribeBlockEmail">
+					<button class="input-group-submit">Subscribe</button>
 				</div>
-			</figure>
+			</div>
 
 			<ul class="recommended-posts">
 				<li class="post-listing">
