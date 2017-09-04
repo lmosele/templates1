@@ -187,7 +187,7 @@
 				<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>
 				<h5 class="subscribe-block-subtitle">Get uplifting and insightful news daily.</h5>
 				<div class="subscribe-block-input input-group">
-					<input class="input-group-field" type="text" name="subscribeBlockEmail">
+					<input class="input-group-field" type="text" placeholder="enter your email address" name="subscribeBlockEmail">
 					<button class="input-group-submit">Subscribe</button>
 				</div>
 			</div>
@@ -195,19 +195,20 @@
 			<ul class="recommended-posts">
 				<li class="post-listing">
 					<div class="row">
-						<div class="post-image-container col-lg-3">
+						<div class="post-image-container col-xs-2">
 							<a href="#{post link}" class="post-image" alt="{post title}">
-								<img src="#">
+								<img src="./dist/img/photos/listing1.png">
 							</a>
 						</div>
-						<div class="post-details col-lg-9">
-							<a href="#" class="post-title-medium">
+						<div class="post-details col-xs-10">
+							<a href="#{post link}" class="post-title-medium">
 								<h3>Sponsored Post Title</h3>
 							</a>
 							<span class="post-crumb-datetime">July 5th 2017</span>
 						</div>
 					</div>
 				</li>
+
 			</ul>
 		</aside>
 	</section>

@@ -7,6 +7,16 @@
   }
 }
 
+.section {
+  @extend %inner-padding;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  // background-color: darken(white, 10%);
+  .section-title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
 
 // BASE POST STYLING
 [class*="post-title-"] {
@@ -76,6 +86,10 @@
   margin-top: 5px;
   margin-bottom: 5px;
   color: $grey;
+  em {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
   .author-slug-image {
     width: 32px;
     height: 32px;
@@ -94,6 +108,27 @@
   }
 }
 
+
+.post-listing {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $lightgrey;
+  }
+  .post-image-container {
+    background-color: white;
+    .post-image {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  .post-title-medium {
+    font-size: 0.9em;
+  }
+  .post-crumb-datetime {
+    font-size: 0.8em;
+  }
+}
 
 .post-medium {
   padding: 0;
@@ -116,6 +151,8 @@
   align-items: center;  
   justify-content: center;
   margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   .post-title-medium {
     margin-bottom: 20px;
   }
@@ -165,18 +202,6 @@
   }
 }
 
-.section {
-  @extend %inner-padding;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: lightgrey;
-  .section-title {
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-}
-
-
 .subscribe-block {
   background-color: $blueBG;
   text-align: center;
@@ -193,22 +218,40 @@
 }
 
 .input-group {
+  width: 100%;
+  display: flex;
+  position: relative;
   .input-group-field {
-    max-width: 60%;
+    width: 100%;
     height: 50px;
     border-radius: 5px;
     border: 0;
     padding-left: 15px;
     padding-right: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
   }
   .input-group-submit {
     @extend .reset-button;
+    position: absolute;
     color: white;
     background-color: $blue;
     height: 50px;
     padding: 15px;
     border-radius: 30px;
-    margin-left: -20px;
+    right: 0;
+    &:hover {
+      background-color: lighten($blue, 10%);
+    }
+  }
+}
+
+.recommended-posts {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  .row {
+    margin: 0;
   }
 }
 
