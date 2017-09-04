@@ -29,19 +29,19 @@
 
 	<div class="footer-legal-links row">
 		<ul class="links-list col-lg-6">
-			<li class="legal-link">
+			<li class="nav-link">
 				<a href="#">About</a>
 			</li>
-			<li class="legal-link">
+			<li class="nav-link">
 				<a href="#">Privacy Policy</a>
 			</li>
-			<li class="legal-link">
+			<li class="nav-link">
 				<a href="#">Terms Of Use</a>
 			</li>
-			<li class="legal-link">
+			<li class="nav-link">
 				<a href="#">DMCA</a>
 			</li>
-			<li class="legal-link">
+			<li class="nav-link">
 				<a href="#">Contact</a>
 			</li>
 		</ul>

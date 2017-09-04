@@ -365,6 +365,9 @@
   min-height: 400px;
   position: relative;
   z-index: $z0;
+  &.sticky-ad {
+    position: sticky;
+  }
   .ad-small-like-button,
   .ad-small-title {
     z-index: $z3;
@@ -388,9 +391,6 @@
     background-color: rgba(0, 0, 0, .5);
   }
 }
-
-
-
 
 
 

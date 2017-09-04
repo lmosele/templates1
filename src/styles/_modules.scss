@@ -41,14 +41,11 @@ $blackoverlay:     rgba(0,0,0,0.5);
 
 
 // ** Breakpoints **
-$tinyscreen:        480px;
-$mobilescreen:      640px;
-$mediumscreen:      960px;
-$largescreen:       1024px;  
-$xlargescreen:      1440px;
-$xxlargescreen:     1500px;
-$xxxlargescreen:    1800px;
-$superlargescreen:  2100px;
+$tinyscreen:        36em;
+$mobilescreen:      48em;
+$mediumscreen:      60em;
+$largescreen:       64em;  
+$xlargescreen:      90em;
 
 // ** Master Container Width **
 $masterwidth:      1440px;
@@ -89,37 +86,31 @@ $z10: 100;
 
 // MEDIA QUERY MIXINS
 
-@mixin tiny { // Screens below 480 
+@mixin tiny { 
   @media (max-width: #{$tinyscreen}) {
     @content;
   }
 }
-@mixin mobile { // Screens below 640px 
-  @media (max-width: #{$mobilescreen - 1px}) {
+@mixin mobile { 
+  @media (max-width: #{$mobilescreen - .1em}) {
     @content;
   }
 }
-@mixin tablet { // Screens between 640px and 960px and up
-  @media (max-width: #{$mediumscreen - 1px}) {
+@mixin tablet { 
+  @media (max-width: #{$mediumscreen - .1em}) {
     @content;
   }
 }
-@mixin laptop { // Screens between 960px and 1024px and up
-  @media (min-width: #{$mediumscreen}) and (max-width: #{$xlargescreen - 1px}) {
+@mixin laptop { 
+  @media (min-width: #{$mediumscreen}) and (max-width: #{$xlargescreen - .1em}) {
     @content;
   }
 }
-@mixin desktop { // Screens between 1024px and 1366px and up
-  @media (min-width: #{$mediumscreen}) and (max-width: #{$xlargescreen - 1px}) {
+@mixin desktop { 
+  @media (min-width: #{$mediumscreen}) and (max-width: #{$xlargescreen - .1em}) {
     @content;
   }
 }
-@mixin monitor { // Screens 1366px and up
-  @media (min-width: #{$xxlargescreen}) { 
-    @content; 
-  }
-}
-
 
 // GRADIENT
 @mixin gradient($from-color, $to-color) {
