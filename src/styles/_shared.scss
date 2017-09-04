@@ -32,7 +32,7 @@
 }
 
 // BASE POST STYLING
-[class*="post-title-"] {
+[class*="post-title"] {
   &:hover {
     color: $orange;
     cursor: pointer;    
@@ -161,7 +161,7 @@
       height: 80px;
     }
   }
-  .post-title-medium {
+  .post-title {
     font-size: 0.9em;
   }
   .post-crumb-datetime {
@@ -196,6 +196,16 @@
   }
 }
 
+.post-small {
+  @extend .post-medium;
+  .post-title {
+    font-size: .8em;
+  }
+  .post-author-slug {
+    margin-top: 10px;
+  }
+}
+
 .post-large {
   display: flex;
   position: relative;
@@ -204,7 +214,7 @@
   margin-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  .post-title-medium {
+  .post-title {
     margin-bottom: 20px;
   }
   .post-author-slug {
@@ -307,6 +317,21 @@
     color: white;
   }
 }
+.button-blue {
+  padding: 15px 20px;
+  color: white;
+  background-color: $blue;
+  border-radius: 3px;
+  &:before {
+    content: url('../img/like-icon.svg');
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+  }
+  &:hover {
+    background-color: lighten($blue, 10%);
+  }
+}
 
 .recommended-posts {
   margin-top: 20px;
@@ -330,6 +355,57 @@
     }
   }
 }
+
+.ad-small {
+  text-align: center;
+  padding: 20px;
+  background-color: $lightgrey;
+  background-image: url('../img/photos/adbg1.jpg');
+  background-size: cover;
+  min-height: 400px;
+  position: relative;
+  z-index: $z0;
+  .ad-small-like-button,
+  .ad-small-title {
+    z-index: $z3;
+  }
+  .ad-small-title {
+    font-family: $headline;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  &::after {
+    content: '';
+    z-index: -10;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -71,10 +71,12 @@ h3,h4,h5 {
   // font-weight: 600;
   line-height: $linebase
 }
+p, span {
+  font-family: $body;
+}
 p,ul,ol,li,a,span {
   line-height: $linebase;
   font-weight: 400;
-  font-family: $body;
 }
 h1 {
   font-size: $fonthuge;

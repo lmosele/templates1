@@ -9,7 +9,7 @@
   <!-- Splash Header -->
 	<header class="splash row around-xs">
 		<article class="splash-container row">
-			<div class="splash-details col-lg-5 first-lg">
+			<div class="splash-details col-xs-5 first-lg">
 				<div class="post-crumb-category">
 					<a href="#" class="post-crumb-link">
 						<img src="./dist/img/logo-homehacks.svg">
@@ -28,7 +28,7 @@
 					</span>
 				</div>
 			</div>
-			<div class="splash-image-container col-lg-7 first-xs">
+			<div class="splash-image-container col-xs-7 first-xs">
 				<a href="#" class="splash-image" alt="{post title}">
 					<img src="./dist/img/photos/splash1.jpg">
 				</a>
@@ -50,7 +50,7 @@
 					</div>
 				</div>
 				<div class="post-details">
-					<a href="#" class="post-title-medium">
+					<a href="#" class="post-title">
 						<h3>8 Ways to Refresh and Personalize Your Home</h3>
 					</a>
 
@@ -77,7 +77,7 @@
 					</div>
 				</div>
 				<div class="post-details">
-					<a href="#" class="post-title-medium">
+					<a href="#" class="post-title">
 						<h3>8 Ways to Refresh and Personalize Your Home</h3>
 					</a>
 
@@ -104,7 +104,7 @@
 					</div>
 				</div>
 				<div class="post-details">
-					<a href="#" class="post-title-medium">
+					<a href="#" class="post-title">
 						<h3>8 Ways to Refresh and Personalize Your Home</h3>
 					</a>
 
@@ -131,7 +131,7 @@
 					</div>
 				</div>
 				<div class="post-details">
-					<a href="#" class="post-title-medium">
+					<a href="#" class="post-title">
 						<h3>8 Ways to Refresh and Personalize Your Home</h3>
 					</a>
 
@@ -165,7 +165,7 @@
 					</a>
 				</div>
 				<div class="post-details">
-					<a href="#" class="post-title-medium">
+					<a href="#" class="post-title">
 						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
 					</a>
 
@@ -201,7 +201,7 @@
 							</a>
 						</div>
 						<div class="post-details col-xs-10">
-							<a href="#{post link}" class="post-title-medium">
+							<a href="#{post link}" class="post-title">
 								<h3>Sponsored Post Title</h3>
 							</a>
 							<span class="post-crumb-datetime">July 5th 2017</span>
@@ -227,7 +227,7 @@
 					</a>
 				</div>
 				<div class="post-details">
-					<a href="#" class="post-title-medium">
+					<a href="#" class="post-title">
 						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
 					</a>
 
@@ -254,7 +254,7 @@
 					</a>
 				</div>
 				<div class="post-details">
-					<a href="#" class="post-title-medium">
+					<a href="#" class="post-title">
 						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
 					</a>
 
@@ -290,7 +290,7 @@
 								</a>
 							</div>
 							<div class="post-details col-xs-8">
-								<a href="#" class="post-title-medium">
+								<a href="#" class="post-title">
 									<h3>Treat bronchitis with these home remedies</h3>
 								</a>
 								<div class="post-author-slug">
@@ -310,7 +310,7 @@
 								</a>
 							</div>
 							<div class="post-details col-xs-8">
-								<a href="#" class="post-title-medium">
+								<a href="#" class="post-title">
 									<h3>Treat bronchitis with these home remedies</h3>
 								</a>
 								<div class="post-author-slug">
@@ -330,7 +330,7 @@
 								</a>
 							</div>
 							<div class="post-details col-xs-8">
-								<a href="#" class="post-title-medium">
+								<a href="#" class="post-title">
 									<h3>Treat bronchitis with these home remedies</h3>
 								</a>
 								<div class="post-author-slug">
@@ -357,7 +357,7 @@
 								</a>
 							</div>
 							<div class="post-details col-xs-8">
-								<a href="#" class="post-title-medium">
+								<a href="#" class="post-title">
 									<h3>Treat bronchitis with these home remedies</h3>
 								</a>
 								<div class="post-author-slug">
@@ -377,7 +377,7 @@
 								</a>
 							</div>
 							<div class="post-details col-xs-8">
-								<a href="#" class="post-title-medium">
+								<a href="#" class="post-title">
 									<h3>Treat bronchitis with these home remedies</h3>
 								</a>
 								<div class="post-author-slug">
@@ -397,7 +397,7 @@
 								</a>
 							</div>
 							<div class="post-details col-xs-8">
-								<a href="#" class="post-title-medium">
+								<a href="#" class="post-title">
 									<h3>Treat bronchitis with these home remedies</h3>
 								</a>
 								<div class="post-author-slug">
@@ -424,20 +424,17 @@
 
 	<!-- Inspiring Posts -->
 	<section class="section row">
-		<h2 class="section-title orange-title col-lg-12">Inspiring Posts</h2>
-		<div class="col-lg-9 row">
-			<div class="col-xs-3">
-				<article class="post-medium">
+		<h2 class="section-title orange-title col-xs-12">Inspiring Posts</h2>
+		<div class="col-xs-12 col-sm-12 col-md-10 row">
+			<div class="col-xs-6 col-md-3">
+				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
 							<img src="./dist/img/photos/tile1.jpg">
 						</a>
-						<div class="post-image-slug bottom">
-							<img src="./dist/img/logo-homehacks.svg">
-						</div>
 					</div>
 					<div class="post-details">
-						<a href="#" class="post-title-medium">
+						<a href="#" class="post-title">
 							<h3>8 Ways to Refresh and Personalize Your Home</h3>
 						</a>
 
@@ -453,18 +450,15 @@
 					</div>
 				</article>
 			</div>
-			<div class="col-xs-3">
-				<article class="post-medium">
+			<div class="col-xs-6 col-md-3">
+				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
 							<img src="./dist/img/photos/tile1.jpg">
 						</a>
-						<div class="post-image-slug bottom">
-							<img src="./dist/img/logo-homehacks.svg">
-						</div>
 					</div>
 					<div class="post-details">
-						<a href="#" class="post-title-medium">
+						<a href="#" class="post-title">
 							<h3>8 Ways to Refresh and Personalize Your Home</h3>
 						</a>
 
@@ -480,18 +474,15 @@
 					</div>
 				</article>
 			</div>
-			<div class="col-xs-3">
-				<article class="post-medium">
+			<div class="col-xs-6 col-md-3">
+				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
 							<img src="./dist/img/photos/tile1.jpg">
 						</a>
-						<div class="post-image-slug bottom">
-							<img src="./dist/img/logo-homehacks.svg">
-						</div>
 					</div>
 					<div class="post-details">
-						<a href="#" class="post-title-medium">
+						<a href="#" class="post-title">
 							<h3>8 Ways to Refresh and Personalize Your Home</h3>
 						</a>
 
@@ -507,18 +498,15 @@
 					</div>
 				</article>
 			</div>
-			<div class="col-xs-3">
-				<article class="post-medium">
+			<div class="col-xs-6 col-md-3">
+				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
 							<img src="./dist/img/photos/tile1.jpg">
 						</a>
-						<div class="post-image-slug bottom">
-							<img src="./dist/img/logo-homehacks.svg">
-						</div>
 					</div>
 					<div class="post-details">
-						<a href="#" class="post-title-medium">
+						<a href="#" class="post-title">
 							<h3>8 Ways to Refresh and Personalize Your Home</h3>
 						</a>
 
@@ -534,11 +522,13 @@
 					</div>
 				</article>
 			</div>
+
 		</div>
-		<div class="col-lg-3">
-			<figure class="ad-small">
-				Ad
-			</figure>
+		<div class="col-xs-12 col-sm-12 col-md-2">
+			<div class="ad-small">
+				<h4 class="ad-small-title">Like us on Facebook to get our stories delivered in your News Feed.</h4>
+				<button class="reset-button button-blue ad-small-like-button">Like</button>
+			</div>
 		</div>
 	</section>
 
