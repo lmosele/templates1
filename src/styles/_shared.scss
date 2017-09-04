@@ -254,7 +254,7 @@
       font-size: $fontbase;
     }
   }
-  @include tablet {
+  @include desktop {
     .post-details {
       bottom: initial;
       right: 0;
@@ -271,7 +271,7 @@
   }
   // if large posts share a row, wrap them early
   &.split-column {
-    @include tablet {
+    @include desktop {
       padding-left: 0;
       padding-right: 0;
       flex-flow: wrap;
@@ -292,29 +292,34 @@
   .splash-container {
     background-color: white;
     width: 100%;
+    min-height: 500px;
   }
   .splash-details {
     padding: 40px;
   }
   .splash-image-container {
     background-color: gray;
-    padding: 0;
-    overflow: hidden;
-    .splash-image {
-      object-fit: contain;
-      img {
-        margin-bottom: -10px;
-      }
-      &:hover {
-        opacity: .8;
-      }
-    }
+    background-size: cover;
+    // .splash-image {
+    //   object-fit: contain;
+    //   img {
+    //     margin-bottom: -10px;
+    //   }
+    //   &:hover {
+    //     opacity: .8;
+    //   }
+    // }
   }
   &.sbly-homepage {
     background-color: $blueBG;
   }
   &.relieved-homepage {
     background-color: $tanBG;
+  }
+  @include laptop {
+    .splash-image-container {
+      min-height: 300px;
+    }
   }
   @include mobile {
     .post-description {

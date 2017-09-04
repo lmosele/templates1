@@ -39,14 +39,6 @@ $blueoverlay: 	   rgba(104, 167, 185, 0.4);
 $whiteoverlay:     rgba(255,255,255,0.5);
 $blackoverlay:     rgba(0,0,0,0.5);
 
-
-// ** Breakpoints **
-$tinyscreen:        36em;
-$mobilescreen:      48em;
-$mediumscreen:      60em;
-$largescreen:       64em;  
-$xlargescreen:      90em;
-
 // ** Master Container Width **
 $masterwidth:      1440px;
 $globalpadding:    60px;
@@ -83,14 +75,15 @@ $z8:  80;
 $z9:  90;
 $z10: 100;
 
+// ** Breakpoints **
+$tinyscreen:        36em;
+$mobilescreen:      48em;
+$mediumscreen:      60em;
+$largescreen:       64em;  
+$xlargescreen:      90em;
 
 // MEDIA QUERY MIXINS
 
-@mixin tiny { 
-  @media (max-width: #{$tinyscreen}) {
-    @content;
-  }
-}
 @mixin mobile { 
   @media (max-width: #{$mobilescreen - .1em}) {
     @content;
@@ -102,12 +95,12 @@ $z10: 100;
   }
 }
 @mixin laptop { 
-  @media (min-width: #{$mediumscreen}) and (max-width: #{$xlargescreen - .1em}) {
+  @media (max-width: #{$largescreen - .1em}) {
     @content;
   }
 }
 @mixin desktop { 
-  @media (min-width: #{$mediumscreen}) and (max-width: #{$xlargescreen - .1em}) {
+  @media (max-width: #{$xlargescreen - .1em}) {
     @content;
   }
 }

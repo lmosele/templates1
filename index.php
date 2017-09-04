@@ -28,10 +28,8 @@
 					</span>
 				</div>
 			</div>
-			<div class="splash-image-container col-xs-12 col-md-7 first-xs">
-				<a href="#" class="splash-image" alt="{post title}">
-					<img src="./dist/img/photos/splash1.jpg">
-				</a>
+			<div class="splash-image-container col-xs-12 col-md-7 first-xs" 
+					 style="background-image:url('./dist/img/photos/splash1.jpg')">
 			</div>
 		</article>
 	</header>

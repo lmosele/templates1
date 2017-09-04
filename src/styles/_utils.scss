@@ -3,6 +3,10 @@
 %inner-padding {
   padding-left: $globalpadding;
   padding-right: $globalpadding;
+  @include desktop {
+      padding-left: $globalpadding - 10px;
+      padding-right: $globalpadding - 10px;
+  }
   @include laptop {
       padding-left: $globalpadding - 30px;
       padding-right: $globalpadding - 30px;
