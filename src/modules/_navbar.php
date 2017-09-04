@@ -5,7 +5,7 @@
         <img src="./dist/img/logo-sbly.svg" alt="{site name}">
       </a>
 
-      <ul class="brands-list col-lg-6 center-xs">
+      <ul class="brands-list hide-mobile col-xs-6 center-xs">
         <li>
           <a href="#" class="brand-logo">
             <img src="./dist/img/logo-relieved.svg">

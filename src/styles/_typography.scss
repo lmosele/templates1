@@ -101,33 +101,6 @@ a {
   text-decoration: none;
 }
 
-// if you need old school list styles
-.reset-list {
-  margin-left: 10px;
-  li {
-    line-height: 1.9em;
-    margin-bottom: 5px;
-    &:last-of-type {
-      margin-bottom: 30px;
-    }
-    &:before {
-      content: "\25A0";
-      margin-right: 5px;
-    }
-  }
-}
-.reset-button {
-  background:none;
-  color:inherit;
-  border:none; 
-  padding:0;
-  font: inherit;
-  cursor: pointer;
-  box-shadow: none;
-  outline-offset: 0;
-  outline: none;
-}
-
 @include mobile {
   h1 {
     font-size: $fontxlarger;

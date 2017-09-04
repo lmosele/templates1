@@ -1,9 +1,9 @@
 <footer>
 	<div class="footer-brands row middle-xs">
-		<a href="#" class="footer-main-logo col-lg-2">
+		<a href="#" class="footer-main-logo col-xs-2">
       <img src="./dist/img/logo-sbly.svg" alt="{site name}">
 		</a>
-		<ul class="brands-list col-lg-5">
+		<ul class="brands-list hide-mobile col-xs-10">
         <li>
           <a href="#" class="brand-logo">
             <img src="./dist/img/logo-relieved.svg">
@@ -28,7 +28,7 @@
 	</div>
 
 	<div class="footer-legal-links row">
-		<ul class="links-list col-lg-6">
+		<ul class="links-list col-xs-9">
 			<li class="nav-link">
 				<a href="#">About</a>
 			</li>
@@ -45,7 +45,7 @@
 				<a href="#">Contact</a>
 			</li>
 		</ul>
-		<a href="#" class="footer-fb-logo end-xs col-lg-6">
+		<a href="#" class="footer-fb-logo end-xs col-xs-3">
       <img src="./dist/img/fb-icon.svg" alt="{site name}">
 		</a>
 	</div>

@@ -7,12 +7,12 @@
   <?php echo file_get_contents("./src/modules/_relieved-navbar.php") ?>
 
   <!-- Splash Header -->
-	<header class="splash row around-xs">
+	<header class="splash relieved-homepage row around-xs">
 		<article class="splash-container row">
 			<div class="splash-details col-xs-5 first-lg">
-				<div class="post-crumb-category">
+				<div class="post-crumb-category with-text">
 					<a href="#" class="post-crumb-link">
-						<img src="./dist/img/logo-homehacks.svg">
+						Healthy Choices
 					</a>
 				</div>
 				<span class="post-crumb-datetime">July 15th, 2017</span>
@@ -38,15 +38,15 @@
 
 	<!-- Recent Posts -->
 	<section class="section row">
-		<h2 class="section-title col-xs-12">Section Title</h2>
+		<h2 class="section-title text-orange col-xs-12">Section Title</h2>
 		<div class="col-xs-6 col-sm-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
 						<img src="./dist/img/photos/tile1.jpg">
 					</a>
-					<div class="post-image-slug bottom">
-						<img src="./dist/img/logo-homehacks.svg">
+					<div class="post-image-slug full">
+						Home Remedies
 					</div>
 				</div>
 				<div class="post-details">
@@ -72,8 +72,8 @@
 					<a href="#{post link}" class="post-image" alt="{post title}">
 						<img src="./dist/img/photos/tile1.jpg">
 					</a>
-					<div class="post-image-slug bottom">
-						<img src="./dist/img/logo-homehacks.svg">
+					<div class="post-image-slug full">
+						Home Remedies
 					</div>
 				</div>
 				<div class="post-details">
@@ -99,8 +99,8 @@
 					<a href="#{post link}" class="post-image" alt="{post title}">
 						<img src="./dist/img/photos/tile1.jpg">
 					</a>
-					<div class="post-image-slug bottom">
-						<img src="./dist/img/logo-homehacks.svg">
+					<div class="post-image-slug full">
+						Home Remedies
 					</div>
 				</div>
 				<div class="post-details">
@@ -126,8 +126,8 @@
 					<a href="#{post link}" class="post-image" alt="{post title}">
 						<img src="./dist/img/photos/tile1.jpg">
 					</a>
-					<div class="post-image-slug bottom">
-						<img src="./dist/img/logo-homehacks.svg">
+					<div class="post-image-slug full">
+						Home Remedies
 					</div>
 				</div>
 				<div class="post-details">
@@ -147,6 +147,7 @@
 				</div>
 			</article>
 		</div>
+
 
 	</section>
 
@@ -275,7 +276,7 @@
 
 	<!-- top trending -->
 	<section class="section top-trending fullwidth">
-		<h2 class="section-title">Section Title</h2>
+		<h2 class="section-title text-orange">Section Title</h2>
 		<div class="pattern-background row" 
 				 style="background-image: url('./dist/img/trending-bg.jpg')">
 			<div class="col-xs-12 col-md-6">
@@ -424,7 +425,7 @@
 
 	<!-- Inspiring Posts -->
 	<section class="section row">
-		<h2 class="section-title orange-title col-xs-12">Inspiring Posts</h2>
+		<h2 class="section-title text-orange col-xs-12">Inspiring Posts</h2>
 		<div class="col-xs-12 col-sm-12 col-md-10 row">
 			<div class="col-xs-6 col-md-3">
 				<article class="post-small">

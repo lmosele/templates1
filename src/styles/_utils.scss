@@ -1,0 +1,62 @@
+// UTILS
+
+%inner-padding {
+  padding-left: $globalpadding;
+  padding-right: $globalpadding;
+  @include laptop {
+      padding-left: $globalpadding - 30px;
+      padding-right: $globalpadding - 30px;
+  }
+  @include mobile {
+      padding-left: $globalpadding - 40px;
+      padding-right: $globalpadding - 40px;
+  }
+}
+
+@mixin accent-style($color) {
+  font-family: $accent;
+  font-style: italic;
+  color: $color;
+}
+
+@include mobile {
+  .hide-mobile {
+    display: none;
+  }
+}
+.text-orange {
+  color: $orange;
+}
+.text-pink {
+  color: $pink;
+}
+.text-blue {
+  color: $blue;
+}
+
+// if you need old school list styles
+.reset-list {
+  margin-left: 10px;
+  li {
+    line-height: 1.9em;
+    margin-bottom: 5px;
+    &:last-of-type {
+      margin-bottom: 30px;
+    }
+    &:before {
+      content: "\25A0";
+      margin-right: 5px;
+    }
+  }
+}
+.reset-button {
+  background:none;
+  color:inherit;
+  border:none; 
+  padding:0;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: none;
+  outline-offset: 0;
+  outline: none;
+}

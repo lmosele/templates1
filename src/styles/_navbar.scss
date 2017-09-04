@@ -23,6 +23,24 @@
   button {
     margin-right: 20px;
   }
+  .home-nav-hamburger-toggle {
+    display: none;
+    &:before {
+      content: url('../img/hamburger.svg');
+      width: 10px;
+      height: 10px;
+    }
+    &.menu-open {
+      &:before {
+        content: url('../img/hamburger-x.svg');
+        width: 10px;
+        height: 10px;
+      }
+    }
+    @include mobile {
+      display: inline-flex;
+    }
+  }
 }
 
 
@@ -30,12 +48,14 @@
   .nav-link {
     font-family: $nav;
     display: inline-block;
-    margin-right: 30px;
     text-transform: uppercase;
     font-weight: 600;
     &:hover {
       cursor: pointer;
       color: $orange;
+    }
+    &:not(:last-of-type) {
+      margin-right: 30px;
     }
   }
   &.category-nav {
@@ -55,6 +75,14 @@
       height: 3px;
       width: 100%;
       background: $orange;
+    }
+  }
+  @include tablet {
+    .nav-link {
+      font-size: 0.8em;
+      &:not(:last-of-type) {
+        margin-right: 10px;
+      }
     }
   }
 }

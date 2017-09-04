@@ -1,23 +1,12 @@
-%inner-padding {
-  padding-left: $globalpadding;
-  padding-right: $globalpadding;
-  @include mobile {
-      padding-left: $globalpadding - 40px;
-      padding-right: $globalpadding - 40px;
-  }
-}
-
+// Section Styling
 .section {
   @extend %inner-padding;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  // background-color: darken(white, 10%);
+  // background-color: gray;
   .section-title {
     margin-bottom: 2rem;
     text-align: center;
-    &.orange-title {
-      color: $orange;
-    }
   }
   .pattern-background {
     @extend %inner-padding;
@@ -31,7 +20,7 @@
   }
 }
 
-// BASE POST STYLING
+// Post Styling
 [class*="post-title"] {
   &:hover {
     color: $orange;
@@ -53,7 +42,19 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+.post-crumb-category {
+  // if used as text instead of image:
+  &.with-text {
+    padding-bottom: 20px;
+    .post-crumb-link {
+      @include accent-style($pink);
+      font-size: $fontlarge;
+      &:hover {
+        font-style: initial;
+      }
+    }
+  }
+}
 .post-image-container {
   padding: 0;
   display: flex;
@@ -89,6 +90,14 @@
     }
     &.top {
       top: 0;
+    }
+    // for text category slugs:
+    &.full {
+      @include accent-style($pink);
+      width: 100%;
+      bottom: -5px;
+      padding-top: 10px;
+      padding-left: 0;
     }
   }
 }
@@ -147,7 +156,7 @@
 }
 
 
-// POST STYLING
+// Post Specific Styles
 .post-listing {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -239,7 +248,7 @@
   padding-top: ($nav-height*2);
   padding-bottom: $nav-height;
   overflow:auto;
-  background-color: $blueBG;
+  background-color: $lightgrey;
   .splash-container {
     background-color: white;
     width: 100%;
@@ -261,8 +270,16 @@
       }
     }
   }
+  &.sbly-homepage {
+    background-color: $blueBG;
+  }
+  &.relieved-homepage {
+    background-color: $tanBG;
+  }
 }
 
+
+// Misc
 .subscribe-block {
   background-color: $blueBG;
   text-align: center;
@@ -307,6 +324,7 @@
   }
 }
 
+// Buttons
 .ghost-button-orange {
   padding: 10px 20px;
   border: 1px solid $orange;
@@ -332,6 +350,7 @@
     background-color: lighten($blue, 10%);
   }
 }
+
 
 .recommended-posts {
   margin-top: 20px;
@@ -391,13 +410,6 @@
     background-color: rgba(0, 0, 0, .5);
   }
 }
-
-
-
-
-
-
-
 
 
 
