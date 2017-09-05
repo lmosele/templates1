@@ -75,43 +75,38 @@ $z8:  80;
 $z9:  90;
 $z10: 100;
 
-// ** Breakpoints **
+
+// Styling Breakpoints
 $tinyscreen:        36em;
-$mobilescreen:      48em;
+$mobilescreen:      48em; // 768px
 $mediumscreen:      60em;
 $largescreen:       64em;  
-$xlargescreen:      90em;
+$xlargescreen:      90em; // 1440
 
-// MEDIA QUERY MIXINS
+// Flexbox breakpoints
+$gridsm: 23em;
+$gridmd: 48em;
+$gridlg: 90em;
 
+
+// Mixins
 @mixin mobile { 
-  @media (max-width: #{$mobilescreen - .1em}) {
+  @media (max-width: #{$tinyscreen - .1em}) {
     @content;
   }
 }
 @mixin tablet { 
-  @media (max-width: #{$mediumscreen - .1em}) {
+  @media (max-width: #{$mobilescreen - .1em}) {
     @content;
   }
 }
 @mixin laptop { 
-  @media (max-width: #{$largescreen - .1em}) {
+  @media (max-width: #{$mediumscreen - .1em}) {
     @content;
   }
 }
 @mixin desktop { 
-  @media (max-width: #{$xlargescreen - .1em}) {
+  @media (max-width: #{$largescreen - .1em}) {
     @content;
   }
-}
-
-// GRADIENT
-@mixin gradient($from-color, $to-color) {
-  background-color: mix($from-color, $to-color); /* Fallback */
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from-color), to($to-color));
-  background-image: -webkit-linear-gradient(top, $from-color, $to-color); 
-  background-image:    -moz-linear-gradient(top, $from-color, $to-color);
-  background-image:     -ms-linear-gradient(top, $from-color, $to-color);
-  background-image:      -o-linear-gradient(top, $from-color, $to-color);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$from-color}', EndColorStr='#{$to-color}')";
 }

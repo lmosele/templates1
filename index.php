@@ -28,9 +28,9 @@
 					</span>
 				</div>
 			</div>
-			<div class="splash-image-container col-xs-12 col-md-7 first-xs" 
+			<a href="{post link}" class="splash-image-container col-xs-12 col-md-7 first-xs" 
 					 style="background-image:url('./dist/img/photos/splash1.jpg')">
-			</div>
+			</a>
 		</article>
 	</header>
 
@@ -214,8 +214,8 @@
 
 	<!-- large post section -->
 	<section class="section row">
-		<div class="col-xs-6">
-			<article class="post-large">
+		<div class="col-sm-6 col-xs-12">
+			<article class="post-large split-column">
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks.svg">
@@ -241,8 +241,8 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-xs-6">
-			<article class="post-large">
+		<div class="col-sm-6 col-xs-12">
+			<article class="post-large split-column">
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks.svg">
@@ -424,7 +424,7 @@
 	<section class="section row">
 		<h2 class="section-title text-blue col-xs-12">Inspiring Posts</h2>
 		<div class="col-xs-12 col-sm-12 col-md-10 row">
-			<div class="col-xs-6 col-md-3">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
@@ -448,7 +448,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="col-xs-6 col-md-3">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
@@ -472,7 +472,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="col-xs-6 col-md-3">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
@@ -496,7 +496,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="col-xs-6 col-md-3">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
@@ -520,7 +520,6 @@
 					</div>
 				</article>
 			</div>
-
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-2">
 			<div class="ad-small">

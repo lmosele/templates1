@@ -6,6 +6,22 @@
 
   <?php echo file_get_contents("./src/modules/_relieved-navbar.php") ?>
 
+  <!-- use this to tell you what grid break you're on -->
+<!--   <div class="grid-helper row">
+  	<div class="col-xs-12 first-xs">
+  		xsmall
+  	</div>
+  	<div class="col-sm-12 first-sm">
+  		small
+  	</div>
+  	<div class="col-md-12 first-md">
+  		medium
+  	</div>
+  	<div class="col-lg-12 first-lg">
+  		large
+  	</div>
+  </div>
+ -->
   <!-- Splash Header -->
 	<header class="splash relieved-homepage row around-xs">
 		<article class="splash-container row">
@@ -28,16 +44,16 @@
 					</span>
 				</div>
 			</div>
-			<div class="splash-image-container col-xs-12 col-md-7 first-xs" 
+			<a class="splash-image-container col-xs-12 col-md-7 first-xs" 
 					 style="background-image:url('./dist/img/photos/splash1.jpg')">
-			</div>
+			</a>
 		</article>
 	</header>
 
 	<!-- Recent Posts -->
 	<section class="section row">
 		<h2 class="section-title text-orange col-xs-12">Recent Stories</h2>
-		<div class="col-xs-6 col-sm-3">
+		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -64,7 +80,7 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-xs-6 col-sm-3">
+		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -91,7 +107,7 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-xs-6 col-sm-3">
+		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -118,7 +134,7 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-xs-6 col-sm-3">
+		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -428,7 +444,7 @@
 	<section class="section row">
 		<h2 class="section-title text-orange col-xs-12">Inspiring Posts</h2>
 		<div class="col-xs-12 col-sm-12 col-md-10 row">
-			<div class="col-xs-6 col-md-3">
+			<div class="col-sm-12 col-md-3">
 				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
@@ -452,7 +468,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="col-xs-6 col-md-3">
+			<div class="col-sm-12 col-md-3">
 				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
@@ -476,7 +492,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="col-xs-6 col-md-3">
+			<div class="col-sm-12 col-md-3">
 				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
@@ -500,7 +516,7 @@
 					</div>
 				</article>
 			</div>
-			<div class="col-xs-6 col-md-3">
+			<div class="col-sm-12 col-md-3">
 				<article class="post-small">
 					<div class="post-image-container">
 						<a href="#{post link}" class="post-image" alt="{post title}">
@@ -524,6 +540,7 @@
 					</div>
 				</article>
 			</div>
+
 
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-2">

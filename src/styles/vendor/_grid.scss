@@ -266,9 +266,9 @@
   order: 1;
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: $gridsm) {
   .container {
-    width: 49rem;
+    width: $gridsm + 1em;
   }
 
   .col-sm,
@@ -497,9 +497,9 @@
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: $gridmd) {
   .container {
-    width: 65rem;
+    width: $gridmd + 1em;
   }
 
   .col-md,
@@ -728,9 +728,9 @@
   }
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: $gridlg) {
   .container {
-    width: 76rem;
+    width: $gridlg + 1em;
   }
 
   .col-lg,

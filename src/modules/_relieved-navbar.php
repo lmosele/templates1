@@ -5,7 +5,7 @@
         <img src="./dist/img/logo-relieved.svg" alt="{site name}">
       </a>
 
-      <ul class="links-list category-nav hide-mobile col-xs-8 end-xs">
+      <ul class="links-list category-nav hide-tablet col-xs-8 end-xs">
         <li class="nav-link">
           <a href="#">Home Remedies</a>
         </li>
@@ -21,10 +21,10 @@
       </ul>
 
       <div class="home-nav-icons col-xs-2 end-xs">
-        <a href="#" class="hide-mobile home-nav-fb-logo">
+        <a href="#" class="hide-tablet home-nav-fb-logo">
           <img src="./dist/img/fb-icon.svg" alt="{site name}">
         </a>
-        <button class="hide-mobile reset-button home-nav-search">
+        <button class="hide-tablet reset-button home-nav-search">
           <img src="./dist/img/search-icon.svg" alt="{site name}">
         </button>
         <!-- .menu-open class toggles hamburger to "x"-->

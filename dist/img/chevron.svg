@@ -1,16 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="35px" height="20px" viewBox="0 0 35 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>arrow1</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Relieved-homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="relieved-homepage-1440" transform="translate(-1363.000000, -402.000000)" fill="#F77062">
-            <g id="02-featured" transform="translate(0.000000, 112.000000)">
-                <g id="feature-callout" transform="translate(60.000000, 56.000000)">
-                    <polygon id="arrow1" points="1320.04569 234.000292 1303 250.322079 1307.61931 254 1320.04569 242.102755 1332.46232 253.996754 1337.08488 250.325326"></polygon>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg width="35" height="20" viewBox="0 0 35 20" xmlns="http://www.w3.org/2000/svg">
+  <title>
+    arrow1
+  </title>
+  <path d="M17 0L0 16.3 4.6 20 17 8l12.5 12 4.6-3.7" fill="#F77062" fill-rule="evenodd"/>
 </svg>

@@ -210,6 +210,16 @@
     margin-bottom: 10px;
     border-bottom: 1px solid $lightgrey;
   }
+  // @include mobile {
+  //   display: inline-flex;
+  //   flex-flow: wrap;
+  //   .post-author-slug {
+  //     width: 100%;
+  //   }
+  //   .post-image-container {
+  //     max-width: 30%;
+  //   }
+  // }
 }
 
 .post-small {
@@ -219,6 +229,15 @@
   }
   .post-author-slug {
     margin-top: 10px;
+  }
+  @include mobile {
+    display: inline-flex;
+    .post-image-container {
+      max-width: 30%;
+    }
+    .post-author-slug {
+      display: none;
+    }
   }
 }
 
