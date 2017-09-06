@@ -1,10 +1,42 @@
 // unfortunately these have to be manually done since they're so randomized
-.sbly-homepage .splash-container {
-	position: relative;
-	svg {
-		position: absolute;
-		z-index: $z9;
+
+
+.relieved-homepage,
+.sbly-homepage {
+	.splash-container {
+		position: relative;
+		svg {
+			position: absolute;
+			z-index: $z9;
+		}
+		@include tablet {
+			.dot-grid {
+				bottom: 40%;
+				right: 5%;
+			}
+			.swiggle {
+				right: 50%;
+				top: -3%;
+			}
+			.chevron {
+				top: 20%;
+				right: -3%;
+			}
+			.arch {
+				bottom: 50%;
+				right: 97%;
+			}
+		}
+		@include mobile {
+			.dot-grid {
+				display: none;
+			}
+		}
 	}
+}
+
+
+.relieved-homepage .splash-container {
 	.swiggle {
 		right: -11%;
 		path {
@@ -27,38 +59,59 @@
 			fill: $orange;
 		}
 	}
-	@include tablet {
-		.dot-grid {
-			bottom: 40%;
-			right: 5%;
-		}
-		.swiggle {
-			right: 50%;
-			top: -3%;
-		}
-		.chevron {
-			top: 20%;
-			right: -3%;
-		}
-		.arch {
-			bottom: 50%;
-			right: 97%;
+}
+.sbly-homepage .splash-container {
+	.swiggle {
+		right: -11%;
+		path {
+			fill: $tealBlue;
 		}
 	}
-	@include mobile {
-		.dot-grid {
-			display: none;
+	.chevron {
+		top: 50%;
+		right: -1%;
+		path {
+			fill: $green;
+		}
+	}
+	.arch {
+		bottom: -3%;
+		right: 50%;
+		path {
+			fill: $tealBlue;
+		}
+	}
+	.dot-grid {
+		max-width: 33%;
+		bottom: -20%;
+		right: 3%;
+		path {
+			fill: $tealBlue;
 		}
 	}
 }
 
-
-
-.sponsored-post-section {
-	svg {
-		position: absolute;
-		z-index: $z9;
+.relieved-sponsored-post,
+.sbly-sponsored-post {
+	.sponsored-post-section {
+		svg {
+			position: absolute;
+			z-index: $z9;
+		}
+		@include laptop {
+			.dot-grid-triangle {
+				display: none;
+			}
+		}
+		@include mobile {
+			.half-dot-grid {
+				height: 50%;
+			}
+		}
 	}
+}
+
+.relieved-sponsored-post .sponsored-post-section {
 	.dot-grid-triangle {
 		right: 0%;
 		top: 50%;
@@ -75,18 +128,93 @@
 			fill: $orange;
 		}
 	}
-	@include laptop {
-		.dot-grid-triangle {
-			display: none;
+}
+.sbly-sponsored-post .sponsored-post-section {
+	.dot-grid-triangle {
+		right: 0%;
+		top: 50%;
+		max-width: 20%;
+		path {
+			fill: $tealGreen;
 		}
 	}
-	@include mobile {
-		.half-dot-grid {
-			height: 50%;
+	.half-dot-grid {
+		left: 5%;
+		bottom: -15%;
+		max-width: 20%;
+		path {
+			fill: $blue;
 		}
 	}
 }
 
+.large-post-1-sbly {
+	svg {
+		position: absolute;
+		z-index: $z9;
+	}
+	.ghost-square {
+		left: -1%;
+		top: 20%;
+		path {
+			stroke: $blue;
+		}
+	}
+	.ghost-triangle {
+		right: -1%;
+		top: 10%;
+		path {
+			stroke: $tealGreen
+		}
+	}
+	@include laptop {
+		.ghost-square {
+			display: none;
+		}
+		.ghost-triangle {
+			left: -3%;
+			top: 30%;
+		}
+	}
+}
 
+.large-post-2-sbly {
+	svg {
+		position: absolute;
+		z-index: $z9;
+	}
+	.ghost-circle {
+		bottom: 5%;
+		right: -1%;
+		path {
+			stroke: $tealGreen;
+		}
+	}
+	.swiggle {
+		bottom: 5%;
+		left: -2%;
+		path {
+			stroke: $tealGreen;
+			fill: $tealGreen;
+		}
+	}
+	.zigzag2 {
+		top: 40%;
+		right: -2%;
+		path {
+			stroke: $gray
+		}
+	}
+	@include laptop {
+		.zigzag2,
+		.swiggle {
+			display: none;
+		}
+		.ghost-circle {
+			bottom: 80%;
+			right: -3%;
+		}
+	}
+}
 
 

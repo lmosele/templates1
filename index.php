@@ -42,7 +42,7 @@
 	<!-- Recent Posts -->
 	<section class="section row">
 		<h2 class="section-title text-blue col-xs-12">Section Title</h2>
-		<div class="col-xs-6 col-sm-3">
+		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -69,7 +69,7 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-xs-6 col-sm-3">
+		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -96,7 +96,7 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-xs-6 col-sm-3">
+		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -123,7 +123,7 @@
 				</div>
 			</article>
 		</div>
-		<div class="col-xs-6 col-sm-3">
+		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<article class="post-medium">
 				<div class="post-image-container">
 					<a href="#{post link}" class="post-image" alt="{post title}">
@@ -155,8 +155,8 @@
 
 
 	<!-- sponsored post section -->
-	<section class="section row">
-		<div class="col-lg-8 col-xs-12">
+	<section class="section row sbly-sponsored-post">
+		<div class="col-lg-9 col-md-8 col-xs-12">
 
 			<article class="post-large sponsored-post-section">
 				<?php echo file_get_contents("./dist/img/dot-grid-triangle.svg") ?>
@@ -187,7 +187,7 @@
 			</article>
 
 		</div>
-		<aside class="col-lg-4 col-xs-12 row">
+		<aside class="col-lg-3 col-md-4 col-xs-12 row">
 			<div class="col-md-12 col-sm-6 col-xs-12">
 				<div class="subscribe-block">
 					<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>
@@ -224,7 +224,9 @@
 	<!-- large post section -->
 	<section class="section row">
 		<div class="col-sm-6 col-xs-12">
-			<article class="post-large split-column">
+			<article class="post-large split-column large-post-1-sbly">
+				<?php echo file_get_contents("./dist/img/ghost-square.svg") ?>
+				<?php echo file_get_contents("./dist/img/ghost-triangle.svg") ?>
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks.svg">
@@ -251,7 +253,10 @@
 			</article>
 		</div>
 		<div class="col-sm-6 col-xs-12">
-			<article class="post-large split-column">
+			<article class="post-large split-column large-post-2-sbly">
+				<?php echo file_get_contents("./dist/img/ghost-circle.svg") ?>
+				<?php echo file_get_contents("./dist/img/swiggle.svg") ?>
+				<?php echo file_get_contents("./dist/img/zigzag2.svg") ?>
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks.svg">
@@ -352,7 +357,7 @@
 
 				</ol>
 			</div>
-			<div class="col-xs-12 col-md-6">
+			<div class="col-xs-12 col-md-6 hide-tablet">
 				<h3 class="trending-title">Trending Title</h3>
 				<ol class="trending-posts-list">
 

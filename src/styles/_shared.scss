@@ -53,7 +53,7 @@
   &.with-text {
     padding-bottom: 20px;
     .post-crumb-link {
-      @include accent-style($pink);
+      @include accent-style($fontpink);
       font-size: $fontlarge;
       &:hover {
         cursor: pointer;
@@ -100,7 +100,7 @@
     }
     // for text category slugs:
     &.full {
-      @include accent-style($pink);
+      @include accent-style($fontpink);
       width: 100%;
       bottom: -5px;
       padding-top: 10px;
@@ -355,6 +355,10 @@
     font-size: $fontbase;
     margin-bottom: 20px;
   }
+  &.ad-relieved {
+    background-color: $tanBG;
+    color: $orange;
+  }
 }
 
 .input-group {
@@ -385,6 +389,12 @@
     }
   }
 }
+
+.ad-relieved .input-group-submit {
+  background-color: $hotpink;
+}
+
+
 
 // Buttons
 .ghost-button-orange {
