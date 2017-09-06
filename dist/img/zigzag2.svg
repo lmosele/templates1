@@ -2,7 +2,7 @@
   <title>
     zigzag2
   </title>
-  <g stroke="#F77062" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+  <g  class="zigzag2" stroke="#F77062" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
     <path d="M1 1l18.52 11.72L38.02 1l18.53 11.72L75.07 1 93.6 12.72"/>
     <path stroke-dasharray="12" d="M39 16l18.52 11.72L76.02 16l18.53 11.72L113.07 16l18.52 11.72"/>
   </g>

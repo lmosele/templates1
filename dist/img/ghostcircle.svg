@@ -2,5 +2,5 @@
   <title>
     ghost circle
   </title>
-  <path d="M33 17c0 9-7 16-16 16-8.8 0-16-7-16-16C1 8.2 8.2 1 17 1c9 0 16 7.2 16 16z" stroke="#DF78AB" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="ghost-circle" d="M33 17c0 9-7 16-16 16-8.8 0-16-7-16-16C1 8.2 8.2 1 17 1c9 0 16 7.2 16 16z" stroke="#DF78AB" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

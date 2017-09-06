@@ -2,5 +2,5 @@
   <title>
     triangle
   </title>
-  <path d="M16.24 0L0 25.52l32.77.28" fill="#4CDEBB" fill-rule="evenodd"/>
+  <path class="triangle" d="M16.24 0L0 25.52l32.77.28" fill="#4CDEBB" fill-rule="evenodd"/>
 </svg>

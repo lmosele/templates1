@@ -2,5 +2,5 @@
   <title>
     triangle ghost
   </title>
-  <path d="M47.6 1L1 13.5l34 34z" stroke-width="2" stroke="#DF78AB" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="ghost-triangle" d="M47.6 1L1 13.5l34 34z" stroke-width="2" stroke="#DF78AB" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

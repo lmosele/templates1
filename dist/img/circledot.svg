@@ -5,7 +5,7 @@
   <defs>
     <path id="a" d="M.3.3H2v2H.4v-2z"/>
   </defs>
-  <g fill="none" fill-rule="evenodd">
+  <g class="chevron" fill="none" fill-rule="evenodd">
     <path d="M28.5 7.7c-11 0-20 9-20 20.2 0 11 9 20 20 20 11.2 0 20.2-9 20.2-20 0-11.6-9-20.6-20.2-20.6m0 1.6C38.8 9.3 47 17.7 47 28c0 10-8.2 18.5-18.5 18.5C18.3 46.5 10 38 10 28c0-10.4 8.3-18.7 18.5-18.7" fill="#189DA0"/>
     <path d="M41.3 12.4C50 19.4 51 32 44 40.7c-7 8.6-19.8 9.8-28.3 2.8l25.6-31z" fill="#3BEFF3"/>
     <g transform="translate(11.78 .018)">
