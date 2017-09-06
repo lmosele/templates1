@@ -1,3 +1,4 @@
+  <!-- we can split this one out since it doesnt require multiple recursive logo includes -->
   <nav class="home-nav middle-xs">
     <div class="home-nav-container row middle-xs between-xs">
       <a href="#" class="home-nav-logo col-xs-2">

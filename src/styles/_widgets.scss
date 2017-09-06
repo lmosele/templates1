@@ -148,11 +148,47 @@
 	}
 }
 
-.large-post-1-sbly {
+.large-post-1-sbly,
+.large-post-2-sbly,
+.large-post-3-sbly,
+.large-post-4-sbly,
+.large-post-1-relieved,
+.large-post-2-relieved,
+.large-post-3-relieved,
+.large-post-4-relieved {
 	svg {
 		position: absolute;
 		z-index: $z9;
 	}
+}
+
+.large-post-3-sbly,
+.large-post-3-relieved {
+	@include laptop {
+		.ghost-square {
+			display: none;
+		}
+		.ghost-triangle {
+			left: -3%;
+			top: 30%;
+		}
+	}
+}
+.large-post-4-sbly,
+.large-post-4-relieved {
+		@include laptop {
+		.zigzag2,
+		.swiggle {
+			display: none;
+		}
+		.ghost-circle {
+			bottom: 80%;
+			right: -3%;
+		}
+	}
+}
+
+.large-post-3-sbly {
 	.ghost-square {
 		left: -1%;
 		top: 20%;
@@ -167,22 +203,25 @@
 			stroke: $tealGreen
 		}
 	}
-	@include laptop {
-		.ghost-square {
-			display: none;
+}
+.large-post-3-relieved {
+	.ghost-square {
+		left: -1%;
+		top: 20%;
+		path {
+			stroke: $orange;
 		}
-		.ghost-triangle {
-			left: -3%;
-			top: 30%;
+	}
+	.ghost-triangle {
+		right: -1%;
+		top: 10%;
+		path {
+			stroke: $hotpink
 		}
 	}
 }
 
-.large-post-2-sbly {
-	svg {
-		position: absolute;
-		z-index: $z9;
-	}
+.large-post-4-sbly {
 	.ghost-circle {
 		bottom: 5%;
 		right: -1%;
@@ -205,14 +244,29 @@
 			stroke: $gray
 		}
 	}
-	@include laptop {
-		.zigzag2,
-		.swiggle {
-			display: none;
+}
+
+.large-post-4-relieved {
+	.ghost-circle {
+		bottom: 5%;
+		right: -1%;
+		path {
+			stroke: $pink;
 		}
-		.ghost-circle {
-			bottom: 80%;
-			right: -3%;
+	}
+	.swiggle {
+		bottom: 5%;
+		left: -2%;
+		path {
+			stroke: $orange;
+			fill: $orange;
+		}
+	}
+	.zigzag2 {
+		top: 40%;
+		right: -2%;
+		path {
+			stroke: $orange
 		}
 	}
 }

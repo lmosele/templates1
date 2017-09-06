@@ -10,6 +10,11 @@
   .brands-list {
     text-align: center;
   }
+  .brand-logo {
+    .logo-relieved path {
+      fill: $blue;
+    }
+  }
 }
 
 .home-nav-logo {

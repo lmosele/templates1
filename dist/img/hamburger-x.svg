@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="28px" viewBox="0 0 26 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>menu</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Relieved-homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="relieved-homepage-768" transform="translate(-707.000000, -34.000000)" fill="#F77062">
-            <g id="menu" transform="translate(707.000000, 34.000000)">
-                <rect id="Rectangle" transform="translate(13.000000, 14.000000) rotate(-315.000000) translate(-13.000000, -14.000000) " x="-3" y="12" width="32" height="4"></rect>
-                <rect id="Rectangle" transform="translate(13.000000, 14.000000) rotate(-48.000000) translate(-13.000000, -14.000000) " x="-3" y="12" width="32" height="4"></rect>
-            </g>
-        </g>
-    </g>
+<svg width="26" height="28" viewBox="0 0 26 28" xmlns="http://www.w3.org/2000/svg">
+  <title>
+    menu
+  </title>
+  <g fill="#F77062" fill-rule="evenodd">
+    <path d="M3.10050506 1.27207794l22.627417 22.627417-2.82842712 2.82842712-22.627417-22.627417z"/>
+    <path d="M.80762065 24.552056L22.21980005.77142157l2.9725793 2.67652243-21.4121794 23.78063442z"/>
+  </g>
 </svg>

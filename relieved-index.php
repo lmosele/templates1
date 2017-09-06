@@ -187,44 +187,48 @@
 			</article>
 
 		</div>
-		<aside class="col-lg-3 col-md-4 col-xs-12 row">
-			<div class="col-md-12 col-sm-6 col-xs-12">
-				<div class="subscribe-block ad-relieved">
-					<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>
-					<h5 class="subscribe-block-subtitle">Get uplifting and insightful news daily.</h5>
-					<div class="subscribe-block-input input-group">
-						<input class="input-group-field" type="text" placeholder="enter your email address" name="subscribeBlockEmail">
-						<button class="input-group-submit">Subscribe</button>
+		<aside class="col-lg-3 col-md-4 col-xs-12">
+			<div class="row">
+				<div class="col-md-12 col-sm-6 col-xs-12">
+					<div class="subscribe-block ad-relieved">
+						<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>
+						<h5 class="subscribe-block-subtitle">Get uplifting and insightful news daily.</h5>
+						<div class="subscribe-block-input input-group">
+							<input class="input-group-field" type="text" placeholder="enter your email address" name="subscribeBlockEmail">
+							<button class="input-group-submit">Subscribe</button>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-12 col-sm-6 col-xs-12">
-				<ul class="recommended-posts">
-					<li class="post-listing">
-						<div class="row">
-							<div class="post-image-container col-xs-2">
-								<a href="#{post link}" class="post-image" alt="{post title}">
-									<img src="./dist/img/photos/listing1.png">
-								</a>
+				<div class="col-md-12 col-sm-6 col-xs-12">
+					<ul class="recommended-posts">
+						<li class="post-listing">
+							<div class="row">
+								<div class="post-image-container col-xs-2">
+									<a href="#{post link}" class="post-image" alt="{post title}">
+										<img src="./dist/img/photos/listing1.png">
+									</a>
+								</div>
+								<div class="post-details col-xs-10">
+									<a href="#{post link}" class="post-title">
+										<h3>Sponsored Post Title</h3>
+									</a>
+									<span class="post-crumb-datetime">July 5th 2017</span>
+								</div>
 							</div>
-							<div class="post-details col-xs-10">
-								<a href="#{post link}" class="post-title">
-									<h3>Sponsored Post Title</h3>
-								</a>
-								<span class="post-crumb-datetime">July 5th 2017</span>
-							</div>
-						</div>
-					</li>
-				</ul>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</aside>
 	</section>
 
 
-	<!-- large post section -->
+	<!-- SPLIT COLUMN SECTION -->
 	<section class="section row">
 		<div class="col-sm-6 col-xs-12">
-			<article class="post-large split-column">
+			<article class="post-large split-column large-post-1-relieved">
+				<?php echo file_get_contents("./dist/img/ghost-square.svg") ?>
+				<?php echo file_get_contents("./dist/img/ghost-triangle.svg") ?>
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks.svg">
@@ -251,7 +255,10 @@
 			</article>
 		</div>
 		<div class="col-sm-6 col-xs-12">
-			<article class="post-large split-column">
+			<article class="post-large split-column large-post-2-relieved">
+				<?php echo file_get_contents("./dist/img/ghost-circle.svg") ?>
+				<?php echo file_get_contents("./dist/img/swiggle.svg") ?>
+				<?php echo file_get_contents("./dist/img/zigzag2.svg") ?>
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks.svg">
@@ -427,6 +434,68 @@
 	</section>
 
 
+	<!-- SPLIT COLUMN SECTION 2 -->
+	<section class="section row">
+		<div class="col-sm-6 col-xs-12">
+			<article class="post-large split-column large-post-3-relieved">
+				<?php echo file_get_contents("./dist/img/ghost-square.svg") ?>
+				<?php echo file_get_contents("./dist/img/ghost-triangle.svg") ?>
+				<div class="post-image-container">
+					<span class="post-image-slug top">
+						Sponsored by <img src="./dist/img/logo-homehacks.svg">
+					</span>
+					<a href="#{post link}" class="post-image" alt="{post title}">
+						<img src="./dist/img/photos/sponsored1.jpg">
+					</a>
+				</div>
+				<div class="post-details">
+					<a href="#" class="post-title">
+						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
+					</a>
+
+					<div class="post-author-slug">
+						<img src="./dist/img/photos/author1.png" class="author-slug-image">
+						<span class="author-slug-title">
+							<em>by</em> John Nolan
+						</span>
+					</div>
+
+					<span class="post-crumb-datetime">July 15th, 2017</span>
+
+				</div>
+			</article>
+		</div>
+		<div class="col-sm-6 col-xs-12">
+			<article class="post-large split-column large-post-4-relieved">
+				<?php echo file_get_contents("./dist/img/ghost-circle.svg") ?>
+				<?php echo file_get_contents("./dist/img/swiggle.svg") ?>
+				<?php echo file_get_contents("./dist/img/zigzag2.svg") ?>
+				<div class="post-image-container">
+					<span class="post-image-slug top">
+						Sponsored by <img src="./dist/img/logo-homehacks.svg">
+					</span>
+					<a href="#{post link}" class="post-image" alt="{post title}">
+						<img src="./dist/img/photos/sponsored1.jpg">
+					</a>
+				</div>
+				<div class="post-details">
+					<a href="#" class="post-title">
+						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
+					</a>
+
+					<div class="post-author-slug">
+						<img src="./dist/img/photos/author1.png" class="author-slug-image">
+						<span class="author-slug-title">
+							<em>by</em> John Nolan
+						</span>
+					</div>
+
+					<span class="post-crumb-datetime">July 15th, 2017</span>
+
+				</div>
+			</article>
+		</div>
+	</section>
 
 
 	<!-- Inspiring Posts -->
