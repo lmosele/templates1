@@ -1,9 +1,8 @@
-  <!-- we can split this one out since it doesnt require multiple recursive logo includes -->
-  <nav class="home-nav middle-xs">
+  <nav class="home-nav relieved-navbar middle-xs">
     <div class="home-nav-container row middle-xs between-xs">
-      <a href="#" class="home-nav-logo col-xs-2">
+      <a href="#" class="home-nav-logo relieved-logo col-xs-2">
         <h1 class="nav-logo-backup">{SITE NAME}</h1>
-        <img src="./dist/img/logo-relieved.svg" alt="{site name}">
+        <img src="./dist/img/logo-relieved-orange.svg" alt="{site name}">
       </a>
 
       <ul class="links-list category-nav hide-tablet col-xs-8 end-xs">
@@ -26,7 +25,7 @@
           <img src="./dist/img/fb-icon.svg" alt="{site name}">
         </a>
         <button class="hide-tablet reset-button home-nav-search">
-          <img src="./dist/img/search-icon.svg" alt="{site name}">
+          <img src="./dist/img/search-icon-orange.svg" alt="{site name}">
         </button>
         <!-- .menu-open class toggles hamburger to "x"-->
         <button class="reset-button home-nav-hamburger-toggle "></button>

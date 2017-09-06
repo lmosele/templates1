@@ -7,6 +7,8 @@
   .section-title {
     margin-bottom: 2rem;
     text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.02em;
   }
   .pattern-background {
     @extend %inner-padding;
@@ -33,10 +35,19 @@
     cursor: pointer;    
   }
 }
+.post-title {
+  h1, h2 {
+    font-weight: 900;
+  }
+  h3, h4, h5 {
+    font-weight: 600;
+  }
+}
 .post-title-large {
   h1 {
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: 900;
     &:hover {
       color: $orange;
     }

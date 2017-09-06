@@ -10,17 +10,15 @@
   .brands-list {
     text-align: center;
   }
-  .brand-logo {
-    .logo-relieved path {
-      fill: $blue;
-    }
-  }
 }
 
 .home-nav-logo {
   .nav-logo-backup {
     position: absolute;
     opacity: 0;
+  }
+  &.relieved-logo img {
+    width: 40%;
   }
 }
 .home-nav-icons {
@@ -31,13 +29,13 @@
   .home-nav-hamburger-toggle {
     display: none;
     &:before {
-      content: url('../img/hamburger.svg');
+      content: url('../img/hamburger-blue.svg');
       width: 10px;
       height: 10px;
     }
     &.menu-open {
       &:before {
-        content: url('../img/hamburger-x.svg');
+        content: url('../img/hamburger-x-blue.svg');
         width: 10px;
         height: 10px;
       }
@@ -47,6 +45,16 @@
     }
   }
 }
+
+.relieved-navbar {
+  .home-nav-hamburger-toggle:before {
+      content: url('../img/hamburger-blue.svg');
+    &.menu-open:before {
+      content: url('../img/hamburger-x-blue.svg');
+    }
+  }
+}
+
 
 
 .links-list {

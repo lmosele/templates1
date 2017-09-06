@@ -9,14 +9,36 @@
 			position: absolute;
 			z-index: $z9;
 		}
-		@include tablet {
-			.dot-grid {
-				bottom: 40%;
-				right: 5%;
-			}
+		.swiggle {
+			right: -11%;
+		}
+		.chevron {
+			top: 50%;
+			right: -1%;
+		}
+		.arch {
+			bottom: -3%;
+			right: 50%;
+		}
+		.dot-grid {
+			max-width: 33%;
+			bottom: -20%;
+			right: 3%;
+		}
+		@include desktop {
 			.swiggle {
 				right: 50%;
 				top: -3%;
+			}
+		}
+		@include tablet {
+			.swiggle {
+				right: 50%;
+				top: -3%;
+			}
+			.dot-grid {
+				bottom: 40%;
+				right: 5%;
 			}
 			.chevron {
 				top: 20%;
@@ -38,23 +60,11 @@
 
 .relieved-homepage .splash-container {
 	.swiggle {
-		right: -11%;
 		path {
 			fill: $pink;
 		}
 	}
-	.chevron {
-		top: 50%;
-		right: -1%;
-	}
-	.arch {
-		bottom: -3%;
-		right: 50%;
-	}
 	.dot-grid {
-		max-width: 33%;
-		bottom: -20%;
-		right: 3%;
 		path {
 			fill: $orange;
 		}
@@ -62,29 +72,21 @@
 }
 .sbly-homepage .splash-container {
 	.swiggle {
-		right: -11%;
 		path {
 			fill: $tealBlue;
 		}
 	}
 	.chevron {
-		top: 50%;
-		right: -1%;
 		path {
 			fill: $green;
 		}
 	}
 	.arch {
-		bottom: -3%;
-		right: 50%;
 		path {
 			fill: $tealBlue;
 		}
 	}
 	.dot-grid {
-		max-width: 33%;
-		bottom: -20%;
-		right: 3%;
 		path {
 			fill: $tealBlue;
 		}
