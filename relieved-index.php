@@ -166,7 +166,7 @@
 
 	<!-- sponsored post section -->
 	<section class="section row">
-		<div class="col-md-8 col-xs-12">
+		<div class="col-md-9 col-xs-12">
 
 			<article class="post-large">
 				<div class="post-image-container">
@@ -198,7 +198,7 @@
 			</article>
 
 		</div>
-		<aside class="col-md-4 col-xs-12 row">
+		<aside class="col-md-3 col-xs-12 row">
 			<div class="col-md-12 col-sm-6 col-xs-12">
 				<div class="subscribe-block">
 					<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>

@@ -247,8 +247,7 @@
   align-items: center;  
   justify-content: center;
   margin-bottom: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 40px;
   .post-title {
     margin-bottom: 20px;
   }
@@ -273,7 +272,7 @@
       font-size: $fontbase;
     }
   }
-  @include desktop {
+  @include laptop {
     .post-details {
       bottom: initial;
       right: 0;
@@ -290,7 +289,9 @@
   }
   // if large posts share a row, wrap them early
   &.split-column {
-    @include desktop {
+    padding-right: 10px;
+    padding-left: 10px;
+    @include laptop {
       padding-left: 0;
       padding-right: 0;
       flex-flow: wrap;
@@ -306,7 +307,7 @@
   @extend %inner-padding;
   padding-top: ($nav-height*2);
   padding-bottom: $nav-height;
-  overflow:auto;
+  overflow:inherit;
   background-color: $lightgrey;
   .splash-container {
     background-color: white;
@@ -314,20 +315,12 @@
     min-height: 500px;
   }
   .splash-details {
+    position: relative;
     padding: 40px;
   }
   .splash-image-container {
     background-color: gray;
     background-size: cover;
-    // .splash-image {
-    //   object-fit: contain;
-    //   img {
-    //     margin-bottom: -10px;
-    //   }
-    //   &:hover {
-    //     opacity: .8;
-    //   }
-    // }
   }
   &.sbly-homepage {
     background-color: $blueBG;

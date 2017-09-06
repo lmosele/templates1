@@ -1,0 +1,92 @@
+// unfortunately these have to be manually done since they're so randomized
+.sbly-homepage .splash-container {
+	position: relative;
+	svg {
+		position: absolute;
+		z-index: $z9;
+	}
+	.swiggle {
+		right: -11%;
+		path {
+			fill: $pink;
+		}
+	}
+	.chevron {
+		top: 50%;
+		right: -1%;
+	}
+	.arch {
+		bottom: -3%;
+		right: 50%;
+	}
+	.dot-grid {
+		max-width: 33%;
+		bottom: -20%;
+		right: 3%;
+		path {
+			fill: $orange;
+		}
+	}
+	@include tablet {
+		.dot-grid {
+			bottom: 40%;
+			right: 5%;
+		}
+		.swiggle {
+			right: 50%;
+			top: -3%;
+		}
+		.chevron {
+			top: 20%;
+			right: -3%;
+		}
+		.arch {
+			bottom: 50%;
+			right: 97%;
+		}
+	}
+	@include mobile {
+		.dot-grid {
+			display: none;
+		}
+	}
+}
+
+
+
+.sponsored-post-section {
+	svg {
+		position: absolute;
+		z-index: $z9;
+	}
+	.dot-grid-triangle {
+		right: 0%;
+		top: 50%;
+		max-width: 20%;
+		path {
+			fill: $orange;
+		}
+	}
+	.half-dot-grid {
+		left: 5%;
+		bottom: -15%;
+		max-width: 20%;
+		path {
+			fill: $orange;
+		}
+	}
+	@include laptop {
+		.dot-grid-triangle {
+			display: none;
+		}
+	}
+	@include mobile {
+		.half-dot-grid {
+			height: 50%;
+		}
+	}
+}
+
+
+
+

@@ -10,11 +10,13 @@
 	<header class="splash sbly-homepage row around-xs">
 		<article class="splash-container row">
 			<div class="splash-details col-xs-12 col-md-5 first-md">
+				<?php echo file_get_contents("./dist/img/swiggle.svg") ?>
 				<div class="post-crumb-category">
 					<a href="#" class="post-crumb-link">
 						<img src="./dist/img/logo-homehacks.svg">
 					</a>
 				</div>
+
 				<span class="post-crumb-datetime">July 15th, 2017</span>
 				<a href="#" class="post-title-large">
 					<h1>8 Ways to Refresh and Personalize Your Home</h1>
@@ -31,6 +33,9 @@
 			<a href="{post link}" class="splash-image-container col-xs-12 col-md-7 first-xs" 
 					 style="background-image:url('./dist/img/photos/splash1.jpg')">
 			</a>
+			<?php echo file_get_contents("./dist/img/chevron.svg") ?>
+			<?php echo file_get_contents("./dist/img/arch.svg") ?>
+			<?php echo file_get_contents("./dist/img/dot-grid.svg") ?>
 		</article>
 	</header>
 
@@ -151,9 +156,11 @@
 
 	<!-- sponsored post section -->
 	<section class="section row">
-		<div class="col-sm-8 col-xs-12">
+		<div class="col-lg-8 col-xs-12">
 
-			<article class="post-large">
+			<article class="post-large sponsored-post-section">
+				<?php echo file_get_contents("./dist/img/dot-grid-triangle.svg") ?>
+				<?php echo file_get_contents("./dist/img/half-dot-grid.svg") ?>
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks.svg">
@@ -180,34 +187,36 @@
 			</article>
 
 		</div>
-		<aside class="col-sm-4 col-xs-12">
-			<div class="subscribe-block">
-				<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>
-				<h5 class="subscribe-block-subtitle">Get uplifting and insightful news daily.</h5>
-				<div class="subscribe-block-input input-group">
-					<input class="input-group-field" type="text" placeholder="enter your email address" name="subscribeBlockEmail">
-					<button class="input-group-submit">Subscribe</button>
+		<aside class="col-lg-4 col-xs-12 row">
+			<div class="col-md-12 col-sm-6 col-xs-12">
+				<div class="subscribe-block">
+					<h4 class="subscribe-block-title">Stay Updated w/SBLY</h4>
+					<h5 class="subscribe-block-subtitle">Get uplifting and insightful news daily.</h5>
+					<div class="subscribe-block-input input-group">
+						<input class="input-group-field" type="text" placeholder="enter your email address" name="subscribeBlockEmail">
+						<button class="input-group-submit">Subscribe</button>
+					</div>
 				</div>
 			</div>
-
-			<ul class="recommended-posts">
-				<li class="post-listing">
-					<div class="row">
-						<div class="post-image-container col-xs-2">
-							<a href="#{post link}" class="post-image" alt="{post title}">
-								<img src="./dist/img/photos/listing1.png">
-							</a>
+			<div class="col-md-12 col-sm-6 col-xs-12">
+				<ul class="recommended-posts">
+					<li class="post-listing">
+						<div class="row">
+							<div class="post-image-container col-xs-2">
+								<a href="#{post link}" class="post-image" alt="{post title}">
+									<img src="./dist/img/photos/listing1.png">
+								</a>
+							</div>
+							<div class="post-details col-xs-10">
+								<a href="#{post link}" class="post-title">
+									<h3>Sponsored Post Title</h3>
+								</a>
+								<span class="post-crumb-datetime">July 5th 2017</span>
+							</div>
 						</div>
-						<div class="post-details col-xs-10">
-							<a href="#{post link}" class="post-title">
-								<h3>Sponsored Post Title</h3>
-							</a>
-							<span class="post-crumb-datetime">July 5th 2017</span>
-						</div>
-					</div>
-				</li>
-
-			</ul>
+					</li>
+				</ul>
+			</div>
 		</aside>
 	</section>
 
