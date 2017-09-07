@@ -34,7 +34,7 @@
 				</div>
   		</div>
   	</header>
-  	<content class="content-container col-xs-7">
+  	<content class="content-container col-xs-9">
 	  	<article class="content-article row">
 	  		<p class="article-text-foreword">You may diligently customize your skin-care routine throughout the year, but many of us neglect the changing needs of our hair as the weather evolves outside. As summer hits, the sun, surf, and flat irons can cause damage that will stick around long past Labor Day.</p>
 
@@ -47,7 +47,7 @@
 	  			<figcaption class="article-image-caption">Let Your Hair Shine!</figcaption>
 	  		</figure>
 
-	  		<h2 class="article-text-subheaders">1. Recognize the Power of a Shower (With the Right Shampoo and Conditioner)</h2>
+	  		<h2 class="article-text-subheader">1. Recognize the Power of a Shower (With the Right Shampoo and Conditioner)</h2>
 
 	  		<p>
 	  			Protecting your hair against sun damage is just as important as protecting your skin. “Any source of heat is going to burn your hair and the sun will do the same: lightening the hair, making it more brittle,” warns Mancuso. “Virgin hair is always more resistant because of natural oils, but when it’s stripped with color, hot tools, etc., there’s no resistance in the outer layer. And once hair is more porous, it’s easier for damage to happen to it because it doesn’t have its natural coating.” Mancuso recommends wearing a hat whether you’re at the beach or running errands, and rebalancing hair’s hydration with shampoo and conditioner to help replenish the barrier hair naturally offers. Similar to your daily face moisturizer, a cream or serum with <a href="#" class="article-text-link">built in UV protection</a> will also counteract the damage.
@@ -90,7 +90,7 @@
 	  	
 	  </content>
 
-	  <aside class="content-recommended-posts col-xs-5">
+	  <aside class="content-recommended-posts col-xs-3">
 	  	
 	  </aside>
   </main>

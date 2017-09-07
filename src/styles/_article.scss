@@ -15,7 +15,7 @@
 	.content-image-source {
     position: absolute;
 		left: 0;
-		bottom: 3%;
+		bottom: -1%;
 		display: flex;
     align-items: center;
     background-color: white;
@@ -54,5 +54,60 @@
 }
 .content-container {
 	@include inner-padding(60px);
+	padding-top: 3em;
 }
+
+.content-article {
+	font-size: $fontlarge;
+	color: $black;
+	line-height: 2em;
+	.article-text-subheader,
+	.article-text-foreword {
+		font-family: $headline;
+		font-size: 1.3em !important;
+	}
+	.article-text-foreword {
+		font-weight: 700;
+	}
+	.article-media {
+		position: relative;
+		padding: 0;
+		margin: 0;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.article-image-caption {
+		position: absolute;
+		left: 0;
+		bottom: 1%;
+		display: flex;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    z-index: $z5;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-family: $body;
+    color: $gray;
+    font-style: italic;
+	}
+	.article-text-blockquote {
+		font-family: $body;
+		color: #585858;
+		font-style: italic;
+		margin-left: 5%;
+		border-left: 2px solid $orange;
+		padding-left: 20px;
+		font-size: 1.8em;
+		line-height: (1.8*1.5)em;
+	}	
+}
+
+
+
+
+
+
 
