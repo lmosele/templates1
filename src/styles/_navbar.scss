@@ -18,7 +18,7 @@
     opacity: 0;
   }
   &.relieved-logo img {
-    max-width: 40%;
+    max-width: 80%;
   }
 }
 .home-nav-icons {
@@ -48,9 +48,9 @@
 
 .relieved-navbar {
   .home-nav-hamburger-toggle:before {
-      content: url('../img/hamburger-blue.svg');
+      content: url('../img/hamburger-orange.svg');
     &.menu-open:before {
-      content: url('../img/hamburger-x-blue.svg');
+      content: url('../img/hamburger-x-orange.svg');
     }
   }
 }

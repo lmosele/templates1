@@ -42,7 +42,9 @@
 	  			“In winter, hair can get dry thanks to the absence of moisture in the air, like from forced air,” explains Kevin Mancuso, celebrity stylist and global creative director of Nexxus. “But in the summer you’re exposed to more sources of damage that can harm the structure <a href="#" class="article-text-link">of your hair and the amount of moisture it can hold.</a>”
 	  		</p>
 
-	  		<figure class="article-media"> 
+	  		<figure class="article-media swiggle-and-grid"> 
+	  			<?php echo file_get_contents("./dist/img/half-dot-grid.svg") ?>
+	  			<?php echo file_get_contents("./dist/img/swiggle.svg") ?>
 	  			<img class="article-image" src="./dist/img/photos/article-image1.jpg">
 	  			<figcaption class="article-image-caption">Let Your Hair Shine!</figcaption>
 	  		</figure>
@@ -90,7 +92,7 @@
 
 				<div class="ad-small horizontal" style="background-image: url(./dist/img/photos/adbg2.jpg)">
 					<h4 class="ad-small-title">Like us on Facebook to get our stories delivered in your News Feed.</h4>
-					<button class="reset-button button-blue ad-small-like-button">Like</button>
+					<button class="reset-button button-blue like-button ad-small-like-button">Like</button>
 				</div>
 	  		
 	  	</article>

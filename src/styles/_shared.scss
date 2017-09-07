@@ -108,8 +108,11 @@
       bottom: -5px;
     }
     &.top {
-      max-width: 50%;
       top: 0;
+      @include tablet {
+        max-width: 100%;
+        width: 100%;
+      }
       @include mobile {
         max-width: 100%;
         width: 100%;
@@ -126,6 +129,7 @@
     
   }
 }
+
 .post-author-slug {
   display: flex;
   align-items: center;
@@ -300,13 +304,12 @@
     margin-top: 10px;
   }
   @include tablet {
-    margin-bottom: 20px;
-  }
-  @include mobile {
     margin-bottom: 30px;
     .post-image-container {
       max-width: 30%;
     }
+  }
+  @include mobile {
     .post-author-slug {
       display: none;
     }
@@ -381,7 +384,6 @@
   padding-top: ($nav-height*2);
   padding-bottom: $nav-height;
   overflow:inherit;
-  background-color: $lightgrey;
   .splash-container {
     background-color: white;
     width: 100%;
@@ -394,6 +396,7 @@
   .splash-image-container {
     background-color: gray;
     background-size: cover;
+    background-position: 50%;
   }
   &.sbly-homepage {
     background-color: $blueBG;
@@ -480,17 +483,39 @@
     color: white;
   }
 }
+.button-orange {
+  padding: 10px 20px;
+  color: white;
+  background-color: $orange;
+  &:hover {
+    background-color: lighten($orange, 10%);
+    color: white;
+  }
+}
+.button-green {
+  padding: 10px 20px;
+  color: white;
+  background-color: $lightgreen;
+  &:hover {
+    background-color: lighten($lightgreen, 10%);
+    color: white;
+  }
+}
+
 .button-blue {
   padding: 15px 20px;
   color: white;
   background-color: $blue;
   border-radius: 3px;
-  &:before {
-    content: url('../img/like-icon.svg');
-    width: 10px;
-    height: 10px;
-    margin-right: 6px;
+  &.like-button {
+    &:before {
+      content: url('../img/like-icon.svg');
+      width: 10px;
+      height: 10px;
+      margin-right: 6px;
+    }
   }
+  
   &:hover {
     background-color: lighten($blue, 10%);
   }
@@ -531,6 +556,7 @@
   padding: 20px;
   background-color: $lightgrey;
   background-size: cover;
+  background-position: 50%;
   min-height: 400px;
   position: relative;
   z-index: $z0;
@@ -590,8 +616,58 @@
   }
 }
 
+.article-ad-horizontal {
+  margin: 0 auto;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .article-ad-caption {
+    background-color: #D8D8D8;
+    text-align: center;
+    color: $gray;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .8em;
+  }
+  &.standalone-horizontal {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    max-width: 60%;
+    @include tablet {
+      max-width: 100%;
+    }
+  }
+}
+
+.article-ad-vertical {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  padding-top: 70px;
+  margin-bottom: 20px;
+  .article-ad-caption {
+    background-color: #D8D8D8;
+    text-align: center;
+    color: $gray;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .8em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
 
 
+.content-recommended-posts {
+  .subscribe-block {
+    margin-top: 0;
+    background-color: #D8D8D8;
+    .subscribe-block-title {
+      font-size: 1.2em;
+    }
+  }
+}
 
 
 

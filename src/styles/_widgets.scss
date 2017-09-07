@@ -189,6 +189,7 @@
 	.triple-swiggle {
 		path {
 			stroke: $green;
+			fill: $green;
 		}
 	}
 	.triangle {
@@ -201,6 +202,7 @@
 	.triple-swiggle {
 		path {
 			stroke: $pink;
+			fill: $pink;
 		}
 	}
 	.triangle {
@@ -210,31 +212,7 @@
 	}
 }
 
-.large-post-2-relieved,
-.large-post-2-sbly {
-	.zigzag {
-		left: -1%;
-		bottom: 5%;
-	}
-	.scalene-triangle {
-		top: -6%;
-		right: -5%;
-	}
-	.circledot {
-		right: -1%;
-		top: 10%;
-	}
-	@include tablet {
-		.scalene-triangle {
-			display: none;
-		}
-	}
-	@include mobile {
-		.zigzag {
-			display: none;
-		}
-	}
-}
+
 .large-post-2-sbly {
 	.zigzag {
 		path {
@@ -266,6 +244,34 @@
 	.circledot {
 		path: {
 			fill: $orange;
+		}
+	}
+}
+.large-post-2-sbly,
+.large-post-2-relieved {
+	.zigzag {
+		left: -1%;
+		bottom: 5%;
+	}
+	.scalene-triangle {
+		top: -6%;
+		right: -5%;
+	}
+	.circledot {
+		right: -1%;
+		top: 10%;
+	}
+	@include laptop {
+		.scalene-triangle {
+			display: none;
+		}
+		.zigzag {
+			bottom: 70%;
+		}
+	}
+	@include tablet {
+		.zigzag {
+			display: none;
 		}
 	}
 }
@@ -379,4 +385,26 @@
 	}
 }
 
+
+// Article widgets
+.swiggle-and-grid {
+	svg {
+		position: absolute;
+		z-index: $z9;
+	}
+	.half-dot-grid {
+		bottom: -10%;
+		right: 5%;
+	}
+	.swiggle {
+		left: -3%;
+		top: 5%;
+	}
+	@include tablet {
+		.half-dot-grid,
+		.swiggle {
+			display: none;
+		}
+	}
+}
 
