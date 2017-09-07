@@ -492,6 +492,24 @@
     color: white;
   }
 }
+.button-pink {
+  padding: 10px 20px;
+  color: white;
+  background-color: $pink;
+  &:hover {
+    background-color: lighten($pink, 10%);
+    color: white;
+  }
+}
+.button-tealblue {
+  padding: 10px 20px;
+  color: white;
+  background-color: $tealBlue;
+  &:hover {
+    background-color: lighten($tealBlue, 10%);
+    color: white;
+  }
+}
 .button-green {
   padding: 10px 20px;
   color: white;

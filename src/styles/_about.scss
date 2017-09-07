@@ -12,13 +12,15 @@
 	width: fit-content;
 }
 .about-blue-section,
-.about-properties-section {
+.about-properties-section, 
+.about-legal-section, {
 	@include inner-padding($globalpadding);
 	position: relative;
 }
 
 .about-blue-section {
 	padding-top: $nav-height*2;
+	padding-bottom: $nav-height;
 	background-color: $blueBG;
 	.about-header {
 		position: relative;
@@ -32,8 +34,8 @@
 	}
 	.about-details-container {
 		position: absolute;
-		bottom: 40%;
-		left: 8%;
+		bottom: 30%;
+		left: 5%;
 		color: white;
 		img {
 			display: block;
@@ -48,6 +50,7 @@
 }
 
 .about-text-container {
+	display: block;
 	max-width: 640px;
 	margin: 0 auto;
 	font-size: 1.1em;
@@ -60,7 +63,8 @@
 		font-style: italic;
 		font-size: 1.3em;
 		text-transform: initial;
-		margin-bottom: 20px;
+		margin-bottom: 50px;
+		margin-top: 50px;
 	}
 }
 
@@ -113,7 +117,10 @@
 
 .about-properties-section {
 	padding-top: $nav-height;
-	padding-bottom: $nav-height;
+	.about-page-section-title {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
 }
 .properties-header-image {
 	max-width: 1000px;
@@ -122,6 +129,7 @@
 .properties-header-description {
 	font-size: 1.1em;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 .property-description {
@@ -130,6 +138,9 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 	padding-bottom: 30px;
+	&:not(:last-of-type) {
+		border-bottom: 1px solid $lightgray;
+	}
 	.property-text-container {
 		padding-left: 20px;
 	}
@@ -137,11 +148,9 @@
 		max-height: 264px;
 		max-width: 264px;
 	}
-	&:not(:last-of-type) {
-		border-bottom: 1px solid $lightgray;
-	}
 	.property-logo {
-		min-width: 150px;
+		min-width: 200px;
+		max-height: 80px;
 	}
 	.visit-button {
 		margin-top: 20px;
@@ -159,6 +168,25 @@
 		.property-image {
 			display: none;
 		}
+	}
+}
+
+.about-legal-section {
+	border-top: 1px solid $lightgray;
+	display: flex;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	.about-text-container {
+		a {
+			text-transform: underline;
+			color: #086FD1;
+		}
+	}
+	.legal-section-header {
+		text-align: center;
+		color: $blue;
+		font-size: 1.5em;
+		
 	}
 }
 

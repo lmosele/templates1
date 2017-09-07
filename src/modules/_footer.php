@@ -50,7 +50,7 @@
 			</li>
 		</ul>
 
-		<ul class="brands-list show-mobile col-xs-6">
+		<ul class="brands-list show-mobile col-xs-6 first-xs">
       <li>
         <a href="#" class="brand-logo">
           <img src="./dist/img/logo-relieved-white.svg">
@@ -73,7 +73,7 @@
       </li>
     </ul>
 
-		<a href="#" class="footer-fb-logo hide-mobile end-xs col-xs-3">
+		<a href="#" class="footer-fb-logo hide-mobile end-xs col-xs-12 col-sm-3">
       <img src="./dist/img/fb-icon-white.svg" alt="{site name}">
 		</a>
 	</div>

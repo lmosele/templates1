@@ -23,6 +23,19 @@
   color: $color;
 }
 
+// laptop
+.show-laptop {
+    display: none;
+  }
+@include laptop {
+  .hide-laptop {
+    display: none;
+  }
+  .show-laptop {
+    display: block;
+  }
+}
+
 // tablet
 .show-tablet {
     display: none;

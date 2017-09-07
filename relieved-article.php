@@ -99,7 +99,7 @@
 	  	
 	  </content>
 
-	  <aside class="content-recommended-posts hide-tablet col-xs-12 col-md-4 col-lg-3">
+	  <aside class="content-recommended-posts hide-laptop col-xs-12 col-md-4 col-lg-3">
 	  	<figure class="article-ad-vertical">
 				<figcaption class="article-ad-caption">Advertisement</figcaption>
 				<img src="./dist/img/photos/advertisement2.png">
