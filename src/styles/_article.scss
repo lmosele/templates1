@@ -1,14 +1,39 @@
+.page-container,
+.content-details-container {
+	padding-left: 60px;
+  padding-right: 60px;
+  @include desktop {
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  @include tablet {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  @include mobile {
+      padding-left:	0px;
+      padding-right: 	0px;
+  }
+}
+.content-splash {
+	padding-left: 60px;
+  padding-right: 60px;
+  @include desktop {
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  @include tablet {
+  	padding: 0;
+  }
+}
+
 .page-container {
-	@include inner-padding(60px);
 	padding-top: ($nav-height*1.2);
   padding-bottom: ($nav-height/2);
 	max-width: 90em;
 	margin: 0 auto;
 }
 
-.content-splash {
-	@include inner-padding(60px);
-}
 .content-image-container{
 	position: relative;
 	margin-bottom: 25px;
@@ -31,17 +56,25 @@
 	}
 	.post-image-slug {
 		position: absolute;
-		bottom: -2%;;
-		left: 45%;
+		bottom: -3%;
+    left: 50%;
+    transform: translateX(-50%);
 		background-color: $orange;
 		border: 1px solid white;
 		padding: 10px;
 		color: white;
 		font-family: $headline;
 	}
+	@include mobile {
+		.post-image-slug {
+			bottom: -4%;
+		}
+		.content-image-source {
+			display: none;
+		}
+	}
 }
 .content-details-container {
-	@include inner-padding(100px);
 	position: relative;
 	.content-title {
 		margin-bottom: 20px;
@@ -50,6 +83,10 @@
 		color: $black;
 		font-style: italic;
 		font-family: $body;
+	}
+	@include mobile {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 .content-container {
@@ -65,6 +102,9 @@
 	.article-text-foreword {
 		font-family: $headline;
 		font-size: 1.3em;
+	}
+	.article-text-subheader {
+		line-height: 2em;
 	}
 	.article-text-foreword {
 		font-weight: 700;
@@ -111,9 +151,30 @@
 			background-color: $orange;
 		}
 	}
+	@include tablet {
+		.article-media {
+			margin-bottom: 60px
+		}
+		.article-text-subheader {
+			line-height: 1.3em;
+		}
+		.article-media {
+			padding: 0;
+			margin-left: -20px;
+			margin-right: -20px;
+		}
+	}
+	@include mobile {
+		font-size: 1.2em;
+		.article-image-caption {
+			width: 100%;
+			bottom: -20%;
+		}
+	}
 }
 
 .article-ad-horizontal {
+	margin: 0 auto;
 	max-width: 100%;
 	margin-top: 10px;
 	margin-bottom: 10px;

@@ -57,7 +57,12 @@
 	  			“Every time you rinse and wash your hair you lose proteins because water itself is eroding,”
 	  		</blockquote>
 
-	  		<figure class="article-ad-horizontal">
+	  		<figure class="article-ad-horizontal show-mobile center-xs">
+	  			<figcaption class="article-ad-caption">Advertisement</figcaption>
+	  			<img src="./dist/img/photos/advertisement3.png">
+	  		</figure>
+
+	  		<figure class="article-ad-horizontal hide-mobile">
 	  			<figcaption class="article-ad-caption">Advertisement</figcaption>
 	  			<img src="./dist/img/photos/advertisement1.png">
 	  		</figure>
