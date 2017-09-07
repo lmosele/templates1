@@ -34,12 +34,12 @@
 				</div>
   		</div>
   	</header>
-  	<content class="content-container col-xs-9">
+  	<content class="content-container col-xs-12 col-md-8">
 	  	<article class="content-article row">
 	  		<p class="article-text-foreword">You may diligently customize your skin-care routine throughout the year, but many of us neglect the changing needs of our hair as the weather evolves outside. As summer hits, the sun, surf, and flat irons can cause damage that will stick around long past Labor Day.</p>
 
 	  		<p>
-	  			“In winter, hair can get dry thanks to the absence of moisture in the air, like from forced air,” explains Kevin Mancuso, celebrity stylist and global creative director of Nexxus. “But in the summer you’re exposed to more sources of damage that can harm the structure of your hair and the amount of moisture it can hold.”
+	  			“In winter, hair can get dry thanks to the absence of moisture in the air, like from forced air,” explains Kevin Mancuso, celebrity stylist and global creative director of Nexxus. “But in the summer you’re exposed to more sources of damage that can harm the structure <a href="#" class="article-text-link">of your hair and the amount of moisture it can hold.</a>”
 	  		</p>
 
 	  		<figure class="article-media"> 
@@ -90,7 +90,7 @@
 	  	
 	  </content>
 
-	  <aside class="content-recommended-posts col-xs-3">
+	  <aside class="content-recommended-posts col-xs-12 col-md-4">
 	  	
 	  </aside>
   </main>

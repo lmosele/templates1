@@ -58,13 +58,13 @@
 }
 
 .content-article {
-	font-size: $fontlarge;
+	font-size: $fontbase;
 	color: $black;
 	line-height: 2em;
 	.article-text-subheader,
 	.article-text-foreword {
 		font-family: $headline;
-		font-size: 1.3em !important;
+		font-size: 1.3em;
 	}
 	.article-text-foreword {
 		font-weight: 700;
@@ -103,8 +103,29 @@
 		font-size: 1.8em;
 		line-height: (1.8*1.5)em;
 	}	
+	.article-text-link {
+		font-family: $body;
+		color: $orange;
+		&:hover {
+			color: white;
+			background-color: $orange;
+		}
+	}
 }
 
+
+.article-ad-horizontal {
+	max-width: 100%;
+	margin: 10px;
+	.article-ad-caption {
+		background-color: #D8D8D8;
+		text-align: center;
+		color: $gray;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: .8em;
+	}
+}
 
 
 
