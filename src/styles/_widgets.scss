@@ -164,8 +164,122 @@
 	}
 }
 
+.large-post-1-relieved,
+.large-post-1-sbly {
+	.triple-swiggle {
+		right: -1.5%;
+		top: 10%;
+	}
+	.triangle {
+		top: -3%;
+		left: -3%;
+	}
+	@include tablet {
+		.triple-swiggle {
+			display: none;
+		}
+		.triangle {
+			top:-9%;
+			left: 90%;
+		}
+	}
+}
+
+.large-post-1-sbly {
+	.triple-swiggle {
+		path {
+			stroke: $green;
+		}
+	}
+	.triangle {
+		path {
+			fill: $tealGreen;
+		}
+	}
+}
+.large-post-1-relieved {
+	.triple-swiggle {
+		path {
+			stroke: $pink;
+		}
+	}
+	.triangle {
+		path {
+			fill: $orange;
+		}
+	}
+}
+
+.large-post-2-relieved,
+.large-post-2-sbly {
+	.zigzag {
+		left: -1%;
+		bottom: 5%;
+	}
+	.scalene-triangle {
+		top: -6%;
+		right: -5%;
+	}
+	.circledot {
+		right: -1%;
+		top: 10%;
+	}
+	@include tablet {
+		.scalene-triangle {
+			display: none;
+		}
+	}
+	@include mobile {
+		.zigzag {
+			display: none;
+		}
+	}
+}
+.large-post-2-sbly {
+	.zigzag {
+		path {
+			stroke: $blue;
+		}
+	}
+	.scalene-triangle {
+		path: {
+			fill: $tealBlue;
+		}
+	}
+	.circledot {
+		path: {
+			fill: $orange;
+		}
+	}
+}
+.large-post-2-relieved {
+	.zigzag {
+		path {
+			stroke: $hotpink;
+		}
+	}
+	.scalene-triangle {
+		path: {
+			fill: $orange;
+		}
+	}
+	.circledot {
+		path: {
+			fill: $orange;
+		}
+	}
+}
+
 .large-post-3-sbly,
 .large-post-3-relieved {
+	.ghost-square {
+		left: -1%;
+		top: 20%;
+	}
+	.ghost-triangle {
+		right: -1%;
+		top: 10%;
+	}
 	@include laptop {
 		.ghost-square {
 			display: none;
@@ -178,7 +292,19 @@
 }
 .large-post-4-sbly,
 .large-post-4-relieved {
-		@include laptop {
+	.ghost-circle {
+		bottom: 5%;
+		right: -1%;
+	}
+	.swiggle {
+		bottom: 5%;
+		left: -2%;
+	}
+	.zigzag2 {
+		top: 40%;
+		right: -2%;
+	}
+	@include laptop {
 		.zigzag2,
 		.swiggle {
 			display: none;
@@ -192,15 +318,11 @@
 
 .large-post-3-sbly {
 	.ghost-square {
-		left: -1%;
-		top: 20%;
 		path {
 			stroke: $blue;
 		}
 	}
 	.ghost-triangle {
-		right: -1%;
-		top: 10%;
 		path {
 			stroke: $tealGreen
 		}
@@ -208,15 +330,11 @@
 }
 .large-post-3-relieved {
 	.ghost-square {
-		left: -1%;
-		top: 20%;
 		path {
 			stroke: $orange;
 		}
 	}
 	.ghost-triangle {
-		right: -1%;
-		top: 10%;
 		path {
 			stroke: $hotpink
 		}
@@ -225,23 +343,17 @@
 
 .large-post-4-sbly {
 	.ghost-circle {
-		bottom: 5%;
-		right: -1%;
 		path {
 			stroke: $tealGreen;
 		}
 	}
 	.swiggle {
-		bottom: 5%;
-		left: -2%;
 		path {
 			stroke: $tealGreen;
 			fill: $tealGreen;
 		}
 	}
 	.zigzag2 {
-		top: 40%;
-		right: -2%;
 		path {
 			stroke: $gray
 		}
@@ -250,23 +362,17 @@
 
 .large-post-4-relieved {
 	.ghost-circle {
-		bottom: 5%;
-		right: -1%;
 		path {
 			stroke: $pink;
 		}
 	}
 	.swiggle {
-		bottom: 5%;
-		left: -2%;
 		path {
 			stroke: $orange;
 			fill: $orange;
 		}
 	}
 	.zigzag2 {
-		top: 40%;
-		right: -2%;
 		path {
 			stroke: $orange
 		}

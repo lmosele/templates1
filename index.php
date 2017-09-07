@@ -228,8 +228,7 @@
 	<section class="section row">
 		<div class="col-sm-6 col-xs-12">
 			<article class="post-large split-column large-post-1-sbly">
-				<?php echo file_get_contents("./dist/img/ghost-square.svg") ?>
-				<?php echo file_get_contents("./dist/img/ghost-triangle.svg") ?>
+				<?php echo file_get_contents("./dist/img/triple-swiggle.svg") ?>
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks-blue.svg">
@@ -239,6 +238,7 @@
 					</a>
 				</div>
 				<div class="post-details">
+					<?php echo file_get_contents("./dist/img/triangle.svg") ?>
 					<a href="#" class="post-title">
 						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
 					</a>
@@ -257,9 +257,8 @@
 		</div>
 		<div class="col-sm-6 col-xs-12">
 			<article class="post-large split-column large-post-2-sbly">
-				<?php echo file_get_contents("./dist/img/ghost-circle.svg") ?>
-				<?php echo file_get_contents("./dist/img/swiggle.svg") ?>
-				<?php echo file_get_contents("./dist/img/zigzag2.svg") ?>
+				<?php echo file_get_contents("./dist/img/circledot.svg") ?>
+				<?php echo file_get_contents("./dist/img/zigzag.svg") ?>
 				<div class="post-image-container">
 					<span class="post-image-slug top">
 						Sponsored by <img src="./dist/img/logo-homehacks-blue.svg">
@@ -269,6 +268,7 @@
 					</a>
 				</div>
 				<div class="post-details">
+					<?php echo file_get_contents("./dist/img/scalene-triangle.svg") ?>
 					<a href="#" class="post-title">
 						<h3>Gardening Helps Mental Health: The Benefits Of Nature In Therapy</h3>
 					</a>
