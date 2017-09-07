@@ -232,8 +232,8 @@
 
 // Post Specific Styles
 .post-listing {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
   &:not(:last-of-type) {
     border-bottom: 1px solid $lightgrey;
   }
@@ -501,6 +501,12 @@
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0;
+  .recommended-posts-title {
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: $orange;
+  }
   .row {
     margin: 0;
   }

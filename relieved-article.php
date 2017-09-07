@@ -34,7 +34,7 @@
 				</div>
   		</div>
   	</header>
-  	<content class="content-container col-xs-12 col-md-8">
+  	<content class="content-container col-xs-12 col-md-8 col-lg-9">
 	  	<article class="content-article row">
 	  		<p class="article-text-foreword">You may diligently customize your skin-care routine throughout the year, but many of us neglect the changing needs of our hair as the weather evolves outside. As summer hits, the sun, surf, and flat irons can cause damage that will stick around long past Labor Day.</p>
 
@@ -92,10 +92,68 @@
 	  	
 	  </content>
 
-	  <aside class="content-recommended-posts col-xs-12 col-md-4">
-	  	
+	  <aside class="content-recommended-posts hide-tablet col-xs-12 col-md-4 col-lg-3">
+	  	<figure class="article-ad-vertical">
+				<figcaption class="article-ad-caption">Advertisement</figcaption>
+				<img src="./dist/img/photos/advertisement2.png">
+			</figure>
+			<ul class="recommended-posts">
+				<h3 class="recommended-posts-title">Recommended Posts</h3>
+				<li class="post-listing">
+					<div class="row">
+						<div class="post-image-container col-xs-2">
+							<a href="#{post link}" class="post-image" alt="{post title}">
+								<img src="./dist/img/photos/listing1.png">
+							</a>
+						</div>
+						<div class="post-details col-xs-10">
+							<a href="#{post link}" class="post-title">
+								<h3>Sponsored Post Title</h3>
+							</a>
+							<span class="post-crumb-datetime">July 5th 2017</span>
+						</div>
+					</div>
+				</li>
+				<li class="post-listing">
+					<div class="row">
+						<div class="post-image-container col-xs-2">
+							<a href="#{post link}" class="post-image" alt="{post title}">
+								<img src="./dist/img/photos/listing1.png">
+							</a>
+						</div>
+						<div class="post-details col-xs-10">
+							<a href="#{post link}" class="post-title">
+								<h3>Sponsored Post Title</h3>
+							</a>
+							<span class="post-crumb-datetime">July 5th 2017</span>
+						</div>
+					</div>
+				</li>
+				<li class="post-listing">
+					<div class="row">
+						<div class="post-image-container col-xs-2">
+							<a href="#{post link}" class="post-image" alt="{post title}">
+								<img src="./dist/img/photos/listing1.png">
+							</a>
+						</div>
+						<div class="post-details col-xs-10">
+							<a href="#{post link}" class="post-title">
+								<h3>Sponsored Post Title</h3>
+							</a>
+							<span class="post-crumb-datetime">July 5th 2017</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+
 	  </aside>
+
   </main>
+
+  <figure class="article-ad-horizontal standalone-horizontal">
+		<figcaption class="article-ad-caption">Advertisement</figcaption>
+		<img src="./dist/img/photos/advertisement1.png">
+	</figure>
 
 	<?php echo file_get_contents("./src/modules/_inspiring_posts_section.php") ?>
 
