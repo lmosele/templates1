@@ -18,7 +18,7 @@
     opacity: 0;
   }
   &.relieved-logo img {
-    width: 40%;
+    max-width: 40%;
   }
 }
 .home-nav-icons {
@@ -90,11 +90,19 @@
       background: $orange;
     }
   }
-  @include tablet {
+  @include laptop {
     .nav-link {
       font-size: 0.8em;
       &:not(:last-of-type) {
         margin-right: 10px;
+      }
+    }
+  }
+  @include tablet {
+    .nav-link {
+      font-size: 0.7em;
+      &:not(:last-of-type) {
+        margin-right: 5px;
       }
     }
   }
