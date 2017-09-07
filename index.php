@@ -201,6 +201,7 @@
 				</div>
 				<div class="col-md-12 col-sm-6 col-xs-12">
 					<ul class="recommended-posts">
+						<!-- will probably need some sort of CMS logic to limit listings here -->
 						<li class="post-listing">
 							<div class="row">
 								<div class="post-image-container col-xs-2">

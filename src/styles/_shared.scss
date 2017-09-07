@@ -254,8 +254,11 @@
   .post-author-slug {
     margin-top: 10px;
   }
+  @include tablet {
+    margin-bottom: 20px;
+  }
   @include mobile {
-    display: inline-flex;
+    margin-bottom: 30px;
     .post-image-container {
       max-width: 30%;
     }
@@ -505,6 +508,9 @@
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, .5);
+  }
+  @include laptop {
+    min-height: 200px
   }
 }
 
