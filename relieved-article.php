@@ -8,10 +8,10 @@
 
   <main class="page-container row">
 		<header class="content-splash col-xs-12 center-xs">
-  		<div class="content-image-container ">
+  		<div class="content-image-container">
   			<img class="content-splash-image" src="./dist/img/photos/article-header1.jpg" />
   			<figcaption class="content-image-source">
-  				sourced from John Weisner
+  				Source: John Villavals
   			</figcaption> 
 				</a>
 				<div class="post-image-slug middle">
@@ -19,16 +19,18 @@
 				</div>
   		</div>
   		<div class="content-details-container">
-  			<h1 class="content-title">Article Template Title</h1>
+  			<h1 class="content-title">6 Pro-Approved Ways to Keep Hair Healthy and Hydrated All Summer</h1>
   			<span class="post-crumb-datetime">July 15th, 2017</span>
-  			<div class="post-author-slug">
+  			<div class="post-author-slug slug-extra-large center-xs">
 					<img src="./dist/img/photos/author1.png" class="author-slug-image">
-					<span class="author-slug-title">
-						By John Nolan
-					</span>
-					<span class="author-slug-description">
-						staff writer at sbly
-					</span>
+					<div class="author-details">
+						<div class="author-slug-title">
+							By John Nolan
+						</div>
+						<div class="author-slug-description">
+							staff writer at sbly
+						</div>
+					</div>
 				</div>
   		</div>
   	</header>

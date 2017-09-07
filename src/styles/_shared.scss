@@ -132,8 +132,8 @@
   margin-top: 5px;
   margin-bottom: 5px;
   color: $grey;
+  font-family: $headline;
   .author-slug-title {
-    font-family: $headline;
     em {
       font-family: $body;
       margin-right: 3px;
@@ -149,6 +149,22 @@
   &.slug-large {
     margin-top: 10px;
     margin-bottom: 10px;
+    .author-slug-image {
+      width: 56px;
+      height: 56px;
+      border-radius: 100px;
+      margin-right: 10px;
+    }
+  }
+  &.slug-extra-large {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: initial;
+    .author-details {
+      margin-left: 10px;
+      font-family: $body;
+      color: $black;
+    }
     .author-slug-image {
       width: 56px;
       height: 56px;
