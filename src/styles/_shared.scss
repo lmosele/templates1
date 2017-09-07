@@ -93,7 +93,7 @@
     background-color: white;
     position: absolute;
     text-align: center;
-    z-index: $z7;
+    z-index: $z5;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 5px;
@@ -104,10 +104,16 @@
       margin-left: 5px;
     }
     &.bottom {
+      max-width: 50%;
       bottom: -5px;
     }
     &.top {
+      max-width: 50%;
       top: 0;
+      @include mobile {
+        max-width: 100%;
+        width: 100%;
+      }
     }
     // for text category slugs:
     &.full {
@@ -117,6 +123,7 @@
       padding-top: 10px;
       padding-left: 0;
     }
+    
   }
 }
 .post-author-slug {
@@ -125,9 +132,13 @@
   margin-top: 5px;
   margin-bottom: 5px;
   color: $grey;
-  em {
-    margin-right: 3px;
-    margin-left: 3px;
+  .author-slug-title {
+    font-family: $headline;
+    em {
+      font-family: $body;
+      margin-right: 3px;
+      margin-left: 3px;
+    }
   }
   .author-slug-image {
     width: 32px;
@@ -221,16 +232,18 @@
     margin-bottom: 10px;
     border-bottom: 1px solid $lightgrey;
   }
-  // @include mobile {
-  //   display: inline-flex;
-  //   flex-flow: wrap;
-  //   .post-author-slug {
-  //     width: 100%;
-  //   }
-  //   .post-image-container {
-  //     max-width: 30%;
-  //   }
-  // }
+  @include tablet {
+    display: inline-flex;
+    .post-details {
+      padding-left: 30px;
+    }
+    .post-image-slug {
+      display: none
+    }
+    .post-image-container {
+      max-width: 30%;
+    }
+  }
 }
 
 .post-small {
@@ -276,6 +289,7 @@
     padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    z-index: $z8
   }
   .post-crumb-category {
     padding-bottom: 10px;
