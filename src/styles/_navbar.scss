@@ -4,7 +4,7 @@
   width: 100%;
   z-index: $z10;
   .home-nav-container {
-    @extend %inner-padding;
+    @include inner-padding($globalpadding);
     height: $nav-height;
   }
   .brands-list {

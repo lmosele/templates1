@@ -1,6 +1,6 @@
 // Section Styling
 .section {
-  @extend %inner-padding;
+  @include inner-padding($globalpadding);
   padding-top: 4rem;
   padding-bottom: 4rem;
   // background-color: gray;
@@ -11,7 +11,7 @@
     letter-spacing: 0.02em;
   }
   .pattern-background {
-    @extend %inner-padding;
+    @include inner-padding($globalpadding);
     background-color: $gray;
     background-size: cover;
     padding-bottom: 20px;
@@ -332,7 +332,7 @@
 }
 
 .splash {
-  @extend %inner-padding;
+  @include inner-padding($globalpadding);
   padding-top: ($nav-height*2);
   padding-bottom: $nav-height;
   overflow:inherit;

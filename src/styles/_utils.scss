@@ -1,19 +1,19 @@
 // UTILS
 
-%inner-padding {
-  padding-left: $globalpadding;
-  padding-right: $globalpadding;
+@mixin inner-padding($padding) {
+  padding-left: $padding;
+  padding-right: $padding;
   @include desktop {
-      padding-left: $globalpadding - 10px;
-      padding-right: $globalpadding - 10px;
+      padding-left: $padding - 10px;
+      padding-right: $padding - 10px;
   }
   @include laptop {
-      padding-left: $globalpadding - 30px;
-      padding-right: $globalpadding - 30px;
+      padding-left: $padding - 30px;
+      padding-right: $padding - 30px;
   }
   @include mobile {
-      padding-left: $globalpadding - 40px;
-      padding-right: $globalpadding - 40px;
+      padding-left: $padding - 40px;
+      padding-right: $padding - 40px;
   }
 }
 

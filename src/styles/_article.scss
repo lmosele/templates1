@@ -1,0 +1,20 @@
+.page-container {
+	@include inner-padding(60px);
+	padding-top: ($nav-height*1.2);
+  padding-bottom: $nav-height;
+	max-width: 90em;
+	margin: 0 auto;
+}
+
+.content-splash {
+	@include inner-padding(60px);
+}
+.content-container {
+	@include inner-padding(60px);
+}
+
+// .content-splash-image {
+// 	display: flex;
+// justify-content: center; align horizontal
+// align-items: center; /* align vertical */
+// }

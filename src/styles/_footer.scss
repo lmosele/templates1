@@ -1,16 +1,14 @@
 footer {
-	@extend %inner-padding;
+	@include inner-padding($globalpadding);
 	height: auto;
 	padding-top: 60px;
 	padding-bottom: 40px;
 	background-color: lighten($blue, 10%);
 	color: white;
 	.footer-brands {
-		// height: 60px;
 		margin-bottom: 30px;
 	}
 	.footer-legal-links {
-		// height: 60px;
 		padding-top: 40px;
 		border-top: 1px solid rgba(255,255,255,0.4);
 	}
