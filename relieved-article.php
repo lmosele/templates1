@@ -22,7 +22,7 @@
   			<h1 class="content-title">6 Pro-Approved Ways to Keep Hair Healthy and Hydrated All Summer</h1>
   			<span class="post-crumb-datetime">July 15th, 2017</span>
   			<div class="post-author-slug slug-extra-large center-xs">
-					<img src="./dist/img/photos/author1.png" class="author-slug-image">
+					<img src="./dist/img/photos/author2.png" class="author-slug-image">
 					<div class="author-details">
 						<div class="author-slug-title">
 							By John Nolan
@@ -70,15 +70,17 @@
 	  			<figcaption class="article-image-caption">Video by nexus</figcaption>
 	  		</figure>
 
-	  		<div class="post-author-slug">
-					<img src="./dist/img/photos/author1.png" class="author-slug-image">
-					<span class="author-slug-title">
-						John Nolan
-					</span>
-					<span class="author-slug-contact">inno@shareably.net</span>
-					<span class="author-slug-description">
-						staff writer at sbly
-					</span>
+	  		<div class="post-author-slug article-bio">
+					<img src="./dist/img/photos/author2.png" class="author-slug-image">
+					<div class="author-details">
+						<div class="author-slug-title">
+							John Nolan
+						</div>
+						<div class="author-slug-contact">inno@shareably.net</div>
+						<div class="author-slug-description">
+							Inno Asuncion is the Editor-in-Chief at Shareably. Inno is based in San Francisco
+						</div>
+					</div>
 				</div>
 
 				<div class="ad-small horizontal">

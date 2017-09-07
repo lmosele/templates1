@@ -172,6 +172,35 @@
       margin-right: 10px;
     }
   }
+  &.article-bio {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid $lightgray;
+    border-bottom: 1px solid $lightgray;
+    text-align: initial;
+    .author-slug-image {
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+        margin-right: 20px;
+      }
+    .author-details {
+      font-family: $body;
+      color: $black;
+      .author-slug-title {
+        font-size: 1.3em;
+        font-weight: 800;
+      }
+      .author-slug-contact {
+        font-family: $headline;
+        color: $gray;
+        margin-bottom: 10px;
+      }
+    }
+  }
 }
 .trending-title {
   font-family: $body;
