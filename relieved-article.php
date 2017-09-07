@@ -83,7 +83,7 @@
 					</div>
 				</div>
 
-				<div class="ad-small horizontal">
+				<div class="ad-small horizontal" style="background-image: url(./dist/img/photos/adbg2.jpg)">
 					<h4 class="ad-small-title">Like us on Facebook to get our stories delivered in your News Feed.</h4>
 					<button class="reset-button button-blue ad-small-like-button">Like</button>
 				</div>

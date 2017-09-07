@@ -524,7 +524,6 @@
   text-align: center;
   padding: 20px;
   background-color: $lightgrey;
-  background-image: url('../img/photos/adbg1.jpg');
   background-size: cover;
   min-height: 400px;
   position: relative;
@@ -556,6 +555,32 @@
   }
   @include laptop {
     min-height: 200px
+  }
+  &.horizontal {
+    min-height: 50px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    .ad-small-title {
+      max-width: 70%;
+      margin-right: 30px;
+    }
+    .ad-small-like-button {
+      height: 40px;
+      padding: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      line-height: 44px;
+    }
+    @include tablet {
+      text-align: center;
+      display: initial;
+      .ad-small-title {
+        max-width: 100%;
+      }
+    }
+
   }
 }
 
