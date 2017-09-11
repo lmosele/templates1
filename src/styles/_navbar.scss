@@ -3,6 +3,7 @@
   position: fixed;
   width: 100%;
   z-index: $z10;
+  border-bottom: 1px solid $lightgray;
   .home-nav-container {
     @include inner-padding($globalpadding);
     height: $nav-height;
@@ -18,7 +19,7 @@
     opacity: 0;
   }
   &.relieved-logo img {
-    max-width: 80%;
+    min-height: 48px;
   }
 }
 .home-nav-icons {

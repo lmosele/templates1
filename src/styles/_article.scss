@@ -76,6 +76,8 @@
 }
 .content-details-container {
 	position: relative;
+	margin: 0 auto;
+	max-width: 910px;
 	.content-title {
 		font-weight: 700;
 		margin-bottom: 20px;
@@ -96,19 +98,21 @@
 }
 
 .content-article {
-	font-size: $fontbase;
+	font-size: 1.125em;
 	color: $black;
-	line-height: 2em;
+	line-height: 1.875em;
 	.article-text-subheader,
 	.article-text-foreword {
 		font-family: $headline;
-		font-size: 1.3em;
+		font-size: 1.5em;
 	}
 	.article-text-subheader {
+		font-weight: 700;
 		line-height: 2em;
 	}
 	.article-text-foreword {
 		font-weight: 700;
+		line-height: 2.188em;
 	}
 	.article-media {
 		position: relative;
