@@ -42,11 +42,12 @@
   	min-height: 300px;
 	}
 	.post-image-slug {
-		font-family: $headline;
+		font-family: $nav;
 		color: $orange;
 		font-weight: 600;
 		text-transform: uppercase;
 		padding: 10px;
+		letter-spacing: 0.08em;
 	}
 }
 .callout-details {

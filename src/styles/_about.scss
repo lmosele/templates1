@@ -32,12 +32,15 @@
 			transform: translateX(-50%);
 		}
 	}
+	.about-logo-tablet {
+		display: none
+	}
 	.about-details-container {
 		position: absolute;
 		bottom: 30%;
 		left: 5%;
 		color: white;
-		img {
+		.about-logo-desktop {
 			display: block;
 		}
 		.about-page-title {
@@ -47,7 +50,45 @@
 			margin-top: 10px;
 		}
 	}
+	@include tablet {
+		.about-header {
+			margin-bottom: 50px;
+			.about-page-section-title {
+				position: relative;
+				bottom: 0;
+				left: 0;
+				transform: translateX(0%);
+				margin-bottom: 30px;
+			}
+		}
+		.about-image-container {
+			position: relative;
+			.about-logo-tablet {
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+		.about-details-container {
+			position: relative;
+			bottom: 0;
+			left: 0;
+			color: white;
+			.about-logo-desktop {
+				display: none;
+			}
+			.about-page-title {
+				font-size: 2.5em;
+				margin-bottom: 30px;
+				color: $black;
+				text-align: center;
+			}
+		}
+	}
 }
+
 
 .about-text-container {
 	display: block;
