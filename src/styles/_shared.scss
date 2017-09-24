@@ -195,8 +195,12 @@
       font-family: $body;
       color: $black;
       .author-slug-title {
-        font-size: 1.3em;
-        font-weight: 800;
+        font-family: $body;
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .author-slug-description {
+        font-family: $headline;
       }
       .author-slug-contact {
         font-family: $headline;

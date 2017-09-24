@@ -77,13 +77,15 @@
       color: $orange;
       position: relative;
       a {
-        letter-spacing: 0.4px;
-        font-weight: bold;
+        color: #FF9486;
+        font-family: $nav;
+        font-weight: 500;
+        letter-spacing: 0.03rem;
       }
     }
     .nav-link:hover:after {
       content: '';
-      bottom: -37px;
+      bottom: -39px;
       position: absolute;
       display: block;
       height: 3px;
