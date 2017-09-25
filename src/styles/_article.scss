@@ -88,6 +88,7 @@
 		position: absolute;
 		bottom: -3%;
     left: 50%;
+    font-weight: 600;
     transform: translateX(-50%);
 		background-color: $orange;
 		border: 1px solid white;
@@ -111,6 +112,8 @@
 	.content-title {
 		font-weight: 700;
 		margin-bottom: 20px;
+		font-size: 40px;
+		line-height: 52px;
 	}
 	.article-crumb-datetime {
 		color: $black;
@@ -124,13 +127,17 @@
 }
 .content-container {
 	@include inner-padding(60px);
-	padding-top: 3em;
+	padding-top: 48px;
 }
 
 .content-article {
 	font-size: 18px;
 	color: $black;
 	line-height: 30px;
+	p {
+		line-height: 30px;
+		font-size: 18px;
+	}
 	.article-text-subheader,
 	.article-text-foreword {
 		font-family: $headline;

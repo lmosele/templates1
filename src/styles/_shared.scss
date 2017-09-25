@@ -137,7 +137,9 @@
   color: $grey;
   font-family: $headline;
   .author-slug-title {
-    font-family: $headline;
+    font-family: $body;
+    font-size: 18px;
+    line-height: 24px;
     em {
       font-family: $body;
       margin-right: 3px;
@@ -162,7 +164,6 @@
   }
   &.slug-extra-large {
     margin-top: 20px;
-    margin-bottom: 20px;
     text-align: initial;
     .author-details {
       margin-left: 10px;
