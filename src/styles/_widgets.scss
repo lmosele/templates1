@@ -33,7 +33,7 @@
 		}
 		@include tablet {
 			.swiggle {
-				right: 50%;
+				right: 21%;
 				top: -3%;
 			}
 			.dot-grid {
@@ -45,8 +45,8 @@
 				right: -3%;
 			}
 			.arch {
-				bottom: 50%;
-				right: 97%;
+				bottom: 70%;
+    		right: 93%;
 			}
 		}
 		@include mobile {
@@ -123,9 +123,9 @@
 		}
 	}
 	.half-dot-grid {
-		left: 5%;
-		bottom: -15%;
-		max-width: 20%;
+		left: 63%;
+    bottom: 26%;
+    max-width: 27%;
 		path {
 			fill: $orange;
 		}
@@ -141,9 +141,9 @@
 		}
 	}
 	.half-dot-grid {
-		left: 5%;
-		bottom: -15%;
-		max-width: 20%;
+		left: 63%;
+    bottom: 26%;
+    max-width: 27%;
 		path {
 			fill: $blue;
 		}

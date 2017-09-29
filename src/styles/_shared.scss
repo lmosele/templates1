@@ -6,7 +6,9 @@
   .section-title {
     margin-bottom: 2rem;
     text-align: center;
-    font-weight: 700;
+    font-size: 24px;  
+    font-weight: 600;  
+    line-height: 24px;
     letter-spacing: 0.02em;
   }
   .pattern-background {
@@ -21,7 +23,7 @@
   }
   @include tablet {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -36,7 +38,9 @@
 }
 .post-title {
   h1, h2 {
-    font-weight: 700;
+    font-size: 16px;  
+    font-weight: 600;  
+    line-height: 20px;
   }
   h3, h4, h5 {
     font-weight: 600;
@@ -44,9 +48,11 @@
 }
 .post-title-large {
   h1 {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
-    font-weight: 700;
+    font-size: 24px;  
+    font-weight: 600;  
+    line-height: 28px;
     &:hover {
       color: $orange;
     }
@@ -64,7 +70,7 @@
     padding-bottom: 20px;
     .post-crumb-link {
       @include accent-style($fontpink);
-      font-size: $fontlarge;
+      font-size: 14px;
       &:hover {
         cursor: pointer;
         font-style: initial;
@@ -93,10 +99,15 @@
     position: absolute;
     text-align: center;
     z-index: $z5;
+    color: $orange;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 5px;
     padding-bottom: 3px;
+    font-family: $headline;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
     img {
       max-width: 80%;
       margin-right: 5px;
@@ -107,6 +118,7 @@
       bottom: -5px;
     }
     &.top {
+      padding: 10px;
       top: 0;
       @include tablet {
         max-width: 100%;
@@ -132,14 +144,14 @@
 .post-author-slug {
   display: flex;
   align-items: center;
-  margin-top: 5px;
+  margin-top: 11px;
   margin-bottom: 5px;
   color: $grey;
   font-family: $headline;
   .author-slug-title {
-    font-family: $body;
-    font-size: 18px;
-    line-height: 24px;
+    font-family: $headline;
+    font-size: 14px;
+    line-height: 14px;
     em {
       font-family: $body;
       margin-right: 3px;
@@ -156,8 +168,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
     .author-slug-image {
-      width: 56px;
-      height: 56px;
+      width: 40px;
+      height: 40px;
       border-radius: 100px;
       margin-right: 10px;
     }
@@ -330,6 +342,11 @@
   padding-right: 40px;
   .post-title {
     margin-bottom: 20px;
+    > * {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+    }
   }
   .post-author-slug {
     padding-bottom: 10px;
@@ -350,7 +367,8 @@
   .post-crumb-category {
     padding-bottom: 10px;
     .post-crumb-link.width-text {
-      font-size: $fontbase;
+      font-size: 14px;
+      line-height: 14px;
     }
   }
   @include laptop {
@@ -386,8 +404,8 @@
 
 .splash {
   @include inner-padding($globalpadding);
-  padding-top: ($nav-height*1.5);
-  padding-bottom: $nav-height/2;
+  padding-top: $nav-height + 24px;
+  padding-bottom: 24px;
   overflow:inherit;
   .splash-container {
     background-color: white;

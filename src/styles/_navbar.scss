@@ -154,7 +154,7 @@
 .mobile-nav-container {
   position: fixed;
   z-index: $z9;
-  margin-top: 100px;
+  margin-top: $nav-height;
   color: white;
   width: 100vw;
   width: 100%;
@@ -162,6 +162,7 @@
   height: 100%;
   display: none;
   opacity: 0;
+  transform: translateY(-100%);
   transition: .3s all ease-out;
   &.home-mobile-nav {
     background-color: $blue;
@@ -176,7 +177,6 @@
     margin-right: 0;
     margin-left: 0;
     margin: 0 auto;
-    transform: translateY(-100%);
     transition: .3s all ease-in;
     a {
       text-transform: uppercase;
@@ -192,6 +192,7 @@
   }
   &.mobile-nav-open {
     opacity: 1;
+    transform: translateY(0%);
     transition: .3s all ease-in;
     .mobile-nav-link {
       transition: .3s all ease-in;
@@ -200,5 +201,6 @@
   }
   @include tablet {
     display: block;
+    transform: translateY(-100%);
   }
 }
