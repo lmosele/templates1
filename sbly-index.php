@@ -271,7 +271,7 @@
 
 
 	<!-- SPLIT COLUMN SECTION 1 -->
-	<section class="section row">
+	<section class="section double-large-post row">
 		<div class="col-sm-6 col-xs-12">
 			<article class="post-large split-column large-post-1-sbly">
 				<?php echo file_get_contents("./dist/img/triple-swiggle.svg") ?>
@@ -339,7 +339,7 @@
 		<h2 class="section-title text-blue">Section Title</h2>
 		<div class="pattern-background row" 
 				 style="background-image: url('./dist/img/trending-bg.jpg')">
-			<div class="col-xs-12 col-md-6">
+			<div class="col-xs-12 col-md-6 column">
 				<h3 class="trending-title">Trending Title</h3>
 				<ol class="trending-posts-list">
 
@@ -406,7 +406,7 @@
 
 				</ol>
 			</div>
-			<div class="col-xs-12 col-md-6 hide-tablet">
+			<div class="col-xs-12 col-md-6 column hide-tablet">
 				<h3 class="trending-title">Trending Title</h3>
 				<ol class="trending-posts-list">
 
@@ -481,7 +481,7 @@
 	</section>
 
 		<!-- SPLIT COLUMN SECTION 2 -->
-	<section class="section row">
+	<section class="section double-large-post row">
 		<div class="col-sm-6 col-xs-12">
 			<article class="post-large split-column large-post-3-sbly">
 				<?php echo file_get_contents("./dist/img/ghost-square.svg") ?>

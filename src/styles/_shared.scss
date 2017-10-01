@@ -6,7 +6,6 @@
   .section-title {
     font-size: 32px;  font-weight: bold;  line-height: 32px;
     margin-bottom: 24px;
-    margin-top: 24px;
     text-align: center;
     letter-spacing: 0.02em;
     @include tablet {
@@ -24,11 +23,20 @@
   }
   &.fullwidth {
     padding: 0;
-    padding-top: 2.2rem;
+    padding-top: 3rem;
     padding-bottom: 1.2rem;
+    @include laptop {
+      padding-top: 0rem;
+    }
+    @include tablet {
+      padding-top: 1rem;
+    }
+    @include mobile {
+      padding-top: 0rem;
+    }
   }
   @include tablet {
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
@@ -243,7 +251,9 @@
   font-family: $body;
   font-style: italic;
   color: $orange;
-  padding-top: 20px;
+  font-size: 26px;  
+  font-style: italic; 
+  line-height: 32px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid $lightgrey;
@@ -253,8 +263,8 @@
   margin: 0 auto;
 }
 .trending-posts-list {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   li {
     counter-increment: step-counter;
     &::before {
@@ -337,7 +347,7 @@
     margin-top: 10px;
   }
   @include tablet {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     .post-image-container {
       max-width: 30%;
     }
@@ -736,6 +746,15 @@
   }
 }
 
+.double-large-post {
+  padding-bottom: 2rem;
+  @include tablet {
+    padding-bottom: 0rem;
+    div:last-of-type > article {
+      margin-bottom: 0;
+    }
+  } 
+}
 
 
 

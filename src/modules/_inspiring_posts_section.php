@@ -102,7 +102,7 @@
 
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-2">
-			<div class="ad-small" style="background-image: url(./dist/img/photos/adbg1.jpg)">
+			<div class="ad-small hide-mobile" style="background-image: url(./dist/img/photos/adbg1.jpg)">
 				<h4 class="ad-small-title">Like us on Facebook to get our stories delivered in your News Feed.</h4>
 				<button class="reset-button button-blue like-button ad-small-like-button">Like</button>
 			</div>
